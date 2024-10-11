@@ -1,0 +1,81 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model BusStop {
+  stop_id    String   @id
+  stop_name  String
+  latitude   Float
+  longitude  Float
+  bus_stop_route BusStopRoute[]
+  user_bus_stop UserBusStop[]
+}
+
+model BusStopRoute {
+  stop_id  String
+  route_id String
+  user_id  Int?
+  
+  bus_stop BusStop @relation(fields: [stop_id], references: [stop_id])
+  route    Route    @relation(fields: [route_id], references: [route_id])
+  
+  @@id([stop_id, route_id])
+}
+
+model Route {
+  route_id        String   @id
+  route_short_name String
+  route_long_name  String
+  bus_stop_route   BusStopRoute[]
+}
+
+model SubwayStation {
+  station_id      String   @id
+  station_name    String
+  latitude        Float
+  longitude       Float
+  route_short_name String
+}
+
+model Trip {
+  trip_id       String   @id
+  trip_headsign String
+}
+
+model StationParentStation {
+  station_id      String
+  parent_station  String
+
+  @@id([station_id, parent_station])
+}
+
+model User {
+  user_id   Int      @id @default(autoincrement())
+  name      String
+  lastname  String
+  email     String   @unique
+  password  String
+  user_bus_stop UserBusStop[]
+}
+
+model UserBusStop {
+  user_id  Int
+  stop_id  String
+
+  user     User     @relation(fields: [user_id], references: [user_id])
+  bus_stop BusStop @relation(fields: [stop_id], references: [stop_id])
+  
+  @@id([user_id, stop_id])
+}
+

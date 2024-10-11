@@ -1,0 +1,758 @@
+[
+    {
+        "stop_id": "1059",
+        "stop_name": "San Pedrito",
+        "stop_lat": -34.630922591443,
+        "stop_lon": -58.470433205504,
+        "route_id": "LineaA"
+    },
+    {
+        "stop_id": "1060",
+        "stop_name": "San Jose de Flores",
+        "stop_lat": -34.629054501979,
+        "stop_lon": -58.463536343831,
+        "route_id": "LineaA"
+    },
+    {
+        "stop_id": "1061",
+        "stop_name": "Carabobo",
+        "stop_lat": -34.626422392738,
+        "stop_lon": -58.45604449501,
+        "route_id": "LineaA"
+    },
+    {
+        "stop_id": "1062",
+        "stop_name": "Puan",
+        "stop_lat": -34.623571847053,
+        "stop_lon": -58.448787778687,
+        "route_id": "LineaA"
+    },
+    {
+        "stop_id": "1063",
+        "stop_name": "Primera Junta",
+        "stop_lat": -34.620460192436,
+        "stop_lon": -58.441400975016,
+        "route_id": "LineaA"
+    },
+    {
+        "stop_id": "1064",
+        "stop_name": "Acoyte",
+        "stop_lat": -34.61803601236,
+        "stop_lon": -58.435862213379,
+        "route_id": "LineaA"
+    },
+    {
+        "stop_id": "1065",
+        "stop_name": "Rio de Janeiro",
+        "stop_lat": -34.615111439413,
+        "stop_lon": -58.429285879212,
+        "route_id": "LineaA"
+    },
+    {
+        "stop_id": "1066",
+        "stop_name": "Castro Barros",
+        "stop_lat": -34.611763606902,
+        "stop_lon": -58.421728313005,
+        "route_id": "LineaA"
+    },
+    {
+        "stop_id": "1067",
+        "stop_name": "Loria",
+        "stop_lat": -34.610811060554,
+        "stop_lon": -58.415152877453,
+        "route_id": "LineaA"
+    },
+    {
+        "stop_id": "1068",
+        "stop_name": "Plaza Miserere",
+        "stop_lat": -34.609688,
+        "stop_lon": -58.4068138897,
+        "route_id": "LineaA"
+    },
+    {
+        "stop_id": "1069",
+        "stop_name": "Alberti",
+        "stop_lat": -34.609832012885,
+        "stop_lon": -58.400719910883,
+        "route_id": "LineaA"
+    },
+    {
+        "stop_id": "1070",
+        "stop_name": "Pasco",
+        "stop_lat": -34.609664444429,
+        "stop_lon": -58.398340314029,
+        "route_id": "LineaA"
+    },
+    {
+        "stop_id": "1071",
+        "stop_name": "Congreso",
+        "stop_lat": -34.609241487037,
+        "stop_lon": -58.392670601487,
+        "route_id": "LineaA"
+    },
+    {
+        "stop_id": "1072",
+        "stop_name": "Saenz Peña",
+        "stop_lat": -34.609416989391,
+        "stop_lon": -58.386668153102,
+        "route_id": "LineaA"
+    },
+    {
+        "stop_id": "1073",
+        "stop_name": "Lima",
+        "stop_lat": -34.609105721538,
+        "stop_lon": -58.382521122784,
+        "route_id": "LineaA"
+    },
+    {
+        "stop_id": "1074",
+        "stop_name": "Piedras",
+        "stop_lat": -34.608837932068,
+        "stop_lon": -58.378502407734,
+        "route_id": "LineaA"
+    },
+    {
+        "stop_id": "1075",
+        "stop_name": "Peru",
+        "stop_lat": -34.60855934318,
+        "stop_lon": -58.374563008418,
+        "route_id": "LineaA"
+    },
+    {
+        "stop_id": "1076",
+        "stop_name": "Plaza de Mayo",
+        "stop_lat": -34.608695109514,
+        "stop_lon": -58.371493220293,
+        "route_id": "LineaA"
+    },
+    {
+        "stop_id": "1077",
+        "stop_name": "Juan Manuel de Rosas",
+        "stop_lat": -34.574011003989,
+        "stop_lon": -58.486718237493,
+        "route_id": "LineaB"
+    },
+    {
+        "stop_id": "1078",
+        "stop_name": "Echeverria",
+        "stop_lat": -34.577998380396,
+        "stop_lon": -58.480763733193,
+        "route_id": "LineaB"
+    },
+    {
+        "stop_id": "1079",
+        "stop_name": "De Los Incas - Parque Chas",
+        "stop_lat": -34.581941400922,
+        "stop_lon": -58.472949117288,
+        "route_id": "LineaB"
+    },
+    {
+        "stop_id": "1080",
+        "stop_name": "Tronador - Villa Ortuzar",
+        "stop_lat": -34.584319159038,
+        "stop_lon": -58.465676307586,
+        "route_id": "LineaB"
+    },
+    {
+        "stop_id": "1081",
+        "stop_name": "Federico Lacroze",
+        "stop_lat": -34.587565207891,
+        "stop_lon": -58.454097211372,
+        "route_id": "LineaB"
+    },
+    {
+        "stop_id": "1082",
+        "stop_name": "Dorrego",
+        "stop_lat": -34.591692697391,
+        "stop_lon": -58.447618335534,
+        "route_id": "LineaB"
+    },
+    {
+        "stop_id": "1083",
+        "stop_name": "Angel Gallardo",
+        "stop_lat": -34.602156515827,
+        "stop_lon": -58.431022167144,
+        "route_id": "LineaB"
+    },
+    {
+        "stop_id": "1084",
+        "stop_name": "Malabia",
+        "stop_lat": -34.599048472974,
+        "stop_lon": -58.439674973441,
+        "route_id": "LineaB"
+    },
+    {
+        "stop_id": "1085",
+        "stop_name": "Medrano",
+        "stop_lat": -34.603139517524,
+        "stop_lon": -58.421303182836,
+        "route_id": "LineaB"
+    },
+    {
+        "stop_id": "1086",
+        "stop_name": "Carlos Gardel",
+        "stop_lat": -34.604103190729,
+        "stop_lon": -58.411704897892,
+        "route_id": "LineaB"
+    },
+    {
+        "stop_id": "1087",
+        "stop_name": "Pueyrredon",
+        "stop_lat": -34.604613170616,
+        "stop_lon": -58.405234068657,
+        "route_id": "LineaB"
+    },
+    {
+        "stop_id": "1088",
+        "stop_name": "Pasteur",
+        "stop_lat": -34.604623105662,
+        "stop_lon": -58.399357348627,
+        "route_id": "LineaB"
+    },
+    {
+        "stop_id": "1089",
+        "stop_name": "Callao",
+        "stop_lat": -34.604457527748,
+        "stop_lon": -58.39284561581,
+        "route_id": "LineaB"
+    },
+    {
+        "stop_id": "1090",
+        "stop_name": "Uruguay",
+        "stop_lat": -34.604046341872,
+        "stop_lon": -58.387106358997,
+        "route_id": "LineaB"
+    },
+    {
+        "stop_id": "1091",
+        "stop_name": "Carlos Pellegrini",
+        "stop_lat": -34.603701386103,
+        "stop_lon": -58.381378501576,
+        "route_id": "LineaB"
+    },
+    {
+        "stop_id": "1092",
+        "stop_name": "Florida",
+        "stop_lat": -34.603301786393,
+        "stop_lon": -58.374534845324,
+        "route_id": "LineaB"
+    },
+    {
+        "stop_id": "1093",
+        "stop_name": "Leandro N. Alem",
+        "stop_lat": -34.602967313448,
+        "stop_lon": -58.3699563145,
+        "route_id": "LineaB"
+    },
+    {
+        "stop_id": "1094",
+        "stop_name": "Constitucion",
+        "stop_lat": -34.62727654292,
+        "stop_lon": -58.381431475198,
+        "route_id": "LineaC"
+    },
+    {
+        "stop_id": "1095",
+        "stop_name": "San Juan",
+        "stop_lat": -34.6226762706,
+        "stop_lon": -58.379951566484,
+        "route_id": "LineaC"
+    },
+    {
+        "stop_id": "1096",
+        "stop_name": "Independencia",
+        "stop_lat": -34.618060292427,
+        "stop_lon": -58.38023621602,
+        "route_id": "LineaC"
+    },
+    {
+        "stop_id": "1097",
+        "stop_name": "Moreno",
+        "stop_lat": -34.612434686061,
+        "stop_lon": -58.380517847867,
+        "route_id": "LineaC"
+    },
+    {
+        "stop_id": "1098",
+        "stop_name": "Avenida de Mayo",
+        "stop_lat": -34.608990925758,
+        "stop_lon": -58.380681462661,
+        "route_id": "LineaC"
+    },
+    {
+        "stop_id": "1099",
+        "stop_name": "Diagonal Norte",
+        "stop_lat": -34.604795306773,
+        "stop_lon": -58.379235416539,
+        "route_id": "LineaC"
+    },
+    {
+        "stop_id": "1100",
+        "stop_name": "Lavalle",
+        "stop_lat": -34.60177622427,
+        "stop_lon": -58.378115594396,
+        "route_id": "LineaC"
+    },
+    {
+        "stop_id": "1101",
+        "stop_name": "General San Martin",
+        "stop_lat": -34.594872221186,
+        "stop_lon": -58.377256616835,
+        "route_id": "LineaC"
+    },
+    {
+        "stop_id": "1102",
+        "stop_name": "Retiro",
+        "stop_lat": -34.591873756182,
+        "stop_lon": -58.374748081035,
+        "route_id": "LineaC"
+    },
+    {
+        "stop_id": "1103",
+        "stop_name": "Congreso de Tucuman",
+        "stop_lat": -34.555987572378,
+        "stop_lon": -58.462078124285,
+        "route_id": "LineaD"
+    },
+    {
+        "stop_id": "1104",
+        "stop_name": "Juramento",
+        "stop_lat": -34.562410402122,
+        "stop_lon": -58.456280529496,
+        "route_id": "LineaD"
+    },
+    {
+        "stop_id": "1105",
+        "stop_name": "Jose Hernandez",
+        "stop_lat": -34.566267592324,
+        "stop_lon": -58.451968878529,
+        "route_id": "LineaD"
+    },
+    {
+        "stop_id": "1106",
+        "stop_name": "Olleros",
+        "stop_lat": -34.570246506058,
+        "stop_lon": -58.444336652709,
+        "route_id": "LineaD"
+    },
+    {
+        "stop_id": "1107",
+        "stop_name": "Ministro Carranza",
+        "stop_lat": -34.575205802166,
+        "stop_lon": -58.434726297831,
+        "route_id": "LineaD"
+    },
+    {
+        "stop_id": "1108",
+        "stop_name": "Palermo",
+        "stop_lat": -34.57841356094,
+        "stop_lon": -58.425869643601,
+        "route_id": "LineaD"
+    },
+    {
+        "stop_id": "1109",
+        "stop_name": "Plaza Italia",
+        "stop_lat": -34.581660946057,
+        "stop_lon": -58.420978635617,
+        "route_id": "LineaD"
+    },
+    {
+        "stop_id": "1110",
+        "stop_name": "Scalabrini Ortiz",
+        "stop_lat": -34.585185336263,
+        "stop_lon": -58.415824770871,
+        "route_id": "LineaD"
+    },
+    {
+        "stop_id": "1111",
+        "stop_name": "Bulnes",
+        "stop_lat": -34.588258565847,
+        "stop_lon": -58.411264344992,
+        "route_id": "LineaD"
+    },
+    {
+        "stop_id": "1112",
+        "stop_name": "Agüero",
+        "stop_lat": -34.591698218136,
+        "stop_lon": -58.407092839478,
+        "route_id": "LineaD"
+    },
+    {
+        "stop_id": "1113",
+        "stop_name": "Pueyrredon",
+        "stop_lat": -34.594988137797,
+        "stop_lon": -58.403226435199,
+        "route_id": "LineaD"
+    },
+    {
+        "stop_id": "1114",
+        "stop_name": "Facultad de Medicina",
+        "stop_lat": -34.599719656814,
+        "stop_lon": -58.397433534301,
+        "route_id": "LineaD"
+    },
+    {
+        "stop_id": "1115",
+        "stop_name": "Callao",
+        "stop_lat": -34.599602641978,
+        "stop_lon": -58.392240107111,
+        "route_id": "LineaD"
+    },
+    {
+        "stop_id": "1116",
+        "stop_name": "Tribunales",
+        "stop_lat": -34.601770705188,
+        "stop_lon": -58.38445901873,
+        "route_id": "LineaD"
+    },
+    {
+        "stop_id": "1117",
+        "stop_name": "9 de Julio",
+        "stop_lat": -34.604348245572,
+        "stop_lon": -58.380351886286,
+        "route_id": "LineaD"
+    },
+    {
+        "stop_id": "1118",
+        "stop_name": "Catedral",
+        "stop_lat": -34.607624420959,
+        "stop_lon": -58.374257236745,
+        "route_id": "LineaD"
+    },
+    {
+        "stop_id": "1119",
+        "stop_name": "Bolivar",
+        "stop_lat": -34.609575380822,
+        "stop_lon": -58.374049365518,
+        "route_id": "LineaE"
+    },
+    {
+        "stop_id": "1120",
+        "stop_name": "Belgrano",
+        "stop_lat": -34.61341039242,
+        "stop_lon": -58.378220200429,
+        "route_id": "LineaE"
+    },
+    {
+        "stop_id": "1121",
+        "stop_name": "Independencia",
+        "stop_lat": -34.618001797393,
+        "stop_lon": -58.380904421063,
+        "route_id": "LineaE"
+    },
+    {
+        "stop_id": "1122",
+        "stop_name": "San Jose",
+        "stop_lat": -34.622367261066,
+        "stop_lon": -58.385392427497,
+        "route_id": "LineaE"
+    },
+    {
+        "stop_id": "1123",
+        "stop_name": "Entre Rios",
+        "stop_lat": -34.622759595691,
+        "stop_lon": -58.391514569428,
+        "route_id": "LineaE"
+    },
+    {
+        "stop_id": "1124",
+        "stop_name": "Pichincha",
+        "stop_lat": -34.623133717895,
+        "stop_lon": -58.397111669159,
+        "route_id": "LineaE"
+    },
+    {
+        "stop_id": "1125",
+        "stop_name": "Jujuy",
+        "stop_lat": -34.623878647026,
+        "stop_lon": -58.402829468279,
+        "route_id": "LineaE"
+    },
+    {
+        "stop_id": "1126",
+        "stop_name": "General Urquiza",
+        "stop_lat": -34.624681784582,
+        "stop_lon": -58.409617468688,
+        "route_id": "LineaE"
+    },
+    {
+        "stop_id": "1127",
+        "stop_name": "Boedo",
+        "stop_lat": -34.625545058485,
+        "stop_lon": -58.416628092456,
+        "route_id": "LineaE"
+    },
+    {
+        "stop_id": "1128",
+        "stop_name": "La Plata",
+        "stop_lat": -34.626836228126,
+        "stop_lon": -58.425610810552,
+        "route_id": "LineaE"
+    },
+    {
+        "stop_id": "1129",
+        "stop_name": "Jose Maria Moreno",
+        "stop_lat": -34.628084339372,
+        "stop_lon": -58.434297814982,
+        "route_id": "LineaE"
+    },
+    {
+        "stop_id": "1130",
+        "stop_name": "Emilio Mitre",
+        "stop_lat": -34.631632139071,
+        "stop_lon": -58.442524820568,
+        "route_id": "LineaE"
+    },
+    {
+        "stop_id": "1131",
+        "stop_name": "Medalla Milagrosa",
+        "stop_lat": -34.636250121811,
+        "stop_lon": -58.450398445176,
+        "route_id": "LineaE"
+    },
+    {
+        "stop_id": "1132",
+        "stop_name": "Varela",
+        "stop_lat": -34.639566964307,
+        "stop_lon": -58.4578482805,
+        "route_id": "LineaE"
+    },
+    {
+        "stop_id": "1133",
+        "stop_name": "Plaza de los Virreyes",
+        "stop_lat": -34.642770031936,
+        "stop_lon": -58.461445122984,
+        "route_id": "LineaE"
+    },
+    {
+        "stop_id": "1134",
+        "stop_name": "Hospitales",
+        "stop_lat": -34.641752739715,
+        "stop_lon": -58.412673175271,
+        "route_id": "LineaH"
+    },
+    {
+        "stop_id": "1135",
+        "stop_name": "Parque Patricios",
+        "stop_lat": -34.638460262593,
+        "stop_lon": -58.406328409852,
+        "route_id": "LineaH"
+    },
+    {
+        "stop_id": "1136",
+        "stop_name": "Caseros",
+        "stop_lat": -34.635265854589,
+        "stop_lon": -58.399158865153,
+        "route_id": "LineaH"
+    },
+    {
+        "stop_id": "1137",
+        "stop_name": "Inclan",
+        "stop_lat": -34.629351188776,
+        "stop_lon": -58.400986790654,
+        "route_id": "LineaH"
+    },
+    {
+        "stop_id": "1138",
+        "stop_name": "Humberto 1",
+        "stop_lat": -34.623116366744,
+        "stop_lon": -58.402322201144,
+        "route_id": "LineaH"
+    },
+    {
+        "stop_id": "1139",
+        "stop_name": "Venezuela",
+        "stop_lat": -34.615227118506,
+        "stop_lon": -58.404758647205,
+        "route_id": "LineaH"
+    },
+    {
+        "stop_id": "1140",
+        "stop_name": "Once",
+        "stop_lat": -34.609147664305,
+        "stop_lon": -58.406046778011,
+        "route_id": "LineaH"
+    },
+    {
+        "stop_id": "1141",
+        "stop_name": "Corrientes",
+        "stop_lat": -34.603923811372,
+        "stop_lon": -58.405317217086,
+        "route_id": "LineaH"
+    },
+    {
+        "stop_id": "1142",
+        "stop_name": "Intendente Saguier",
+        "stop_lat": -34.643258552263,
+        "stop_lon": -58.461524902887,
+        "route_id": "Premetro"
+    },
+    {
+        "stop_id": "1143",
+        "stop_name": "Balbastro",
+        "stop_lat": -34.649265520265,
+        "stop_lon": -58.455640019357,
+        "route_id": "Premetro"
+    },
+    {
+        "stop_id": "1144",
+        "stop_name": "Mariano Acosta",
+        "stop_lat": -34.65443843523,
+        "stop_lon": -58.456492782087,
+        "route_id": "Premetro"
+    },
+    {
+        "stop_id": "1145",
+        "stop_name": "Somellera",
+        "stop_lat": -34.656449351476,
+        "stop_lon": -58.453907455721,
+        "route_id": "Premetro"
+    },
+    {
+        "stop_id": "1146",
+        "stop_name": "Ana Maria Janer",
+        "stop_lat": -34.65948634002,
+        "stop_lon": -58.450007979109,
+        "route_id": "Premetro"
+    },
+    {
+        "stop_id": "1147",
+        "stop_name": "Ntra. Sra. de Fatima",
+        "stop_lat": -34.660447642203,
+        "stop_lon": -58.448783417607,
+        "route_id": "Premetro"
+    },
+    {
+        "stop_id": "1148",
+        "stop_name": "Fernandez de la Cruz",
+        "stop_lat": -34.662234999302,
+        "stop_lon": -58.446598243041,
+        "route_id": "Premetro"
+    },
+    {
+        "stop_id": "1149",
+        "stop_name": "Presidente Illia",
+        "stop_lat": -34.665176579075,
+        "stop_lon": -58.448533126284,
+        "route_id": "Premetro"
+    },
+    {
+        "stop_id": "1150",
+        "stop_name": "Parque de la Ciudad",
+        "stop_lat": -34.669865267294,
+        "stop_lon": -58.455109152349,
+        "route_id": "Premetro"
+    },
+    {
+        "stop_id": "1151",
+        "stop_name": "Cecilia Grierson",
+        "stop_lat": -34.672189284049,
+        "stop_lon": -58.457543347854,
+        "route_id": "Premetro"
+    },
+    {
+        "stop_id": "1152",
+        "stop_name": "Escalada",
+        "stop_lat": -34.674558787808,
+        "stop_lon": -58.460167171717,
+        "route_id": "Premetro"
+    },
+    {
+        "stop_id": "1153",
+        "stop_name": "Pola",
+        "stop_lat": -34.678110629633,
+        "stop_lon": -58.464412206378,
+        "route_id": "Premetro"
+    },
+    {
+        "stop_id": "1154",
+        "stop_name": "Ana Diaz",
+        "stop_lat": -34.680577977821,
+        "stop_lon": -58.466877924815,
+        "route_id": "Premetro"
+    },
+    {
+        "stop_id": "1155",
+        "stop_name": "Centro Civico",
+        "stop_lat": -34.683539244591,
+        "stop_lon": -58.465152180426,
+        "route_id": "Premetro"
+    },
+    {
+        "stop_id": "1156",
+        "stop_name": "Larrazabal",
+        "stop_lat": -34.680602280154,
+        "stop_lon": -58.465343409012,
+        "route_id": "Premetro"
+    },
+    {
+        "stop_id": "1157",
+        "stop_name": "Nicolas Descalzi",
+        "stop_lat": -34.682798871351,
+        "stop_lon": -58.462343924707,
+        "route_id": "Premetro"
+    },
+    {
+        "stop_id": "1158",
+        "stop_name": "Gabino Ezeiza",
+        "stop_lat": -34.685968042754,
+        "stop_lon": -58.458103459038,
+        "route_id": "Premetro"
+    },
+    {
+        "stop_id": "1159",
+        "stop_name": "General Savio",
+        "stop_lat": -34.689597318341,
+        "stop_lon": -58.460816625841,
+        "route_id": "Premetro"
+    },
+    {
+        "stop_id": "1160",
+        "stop_name": "Cordoba",
+        "stop_lat": -34.598686142195,
+        "stop_lon": -58.403805105041,
+        "route_id": "LineaH"
+    },
+    {
+        "stop_id": "1161",
+        "stop_name": "Santa Fe",
+        "stop_lat": -34.594856588906,
+        "stop_lon": -58.40245965407,
+        "route_id": "LineaH"
+    },
+    {
+        "stop_id": "1162",
+        "stop_name": "Las Heras",
+        "stop_lat": -34.588062575386,
+        "stop_lon": -58.39804479425,
+        "route_id": "LineaH"
+    },
+    {
+        "stop_id": "1163",
+        "stop_name": "Facultad de Derecho",
+        "stop_lat": -34.58319402976,
+        "stop_lon": -58.391207324196,
+        "route_id": "LineaH"
+    },
+    {
+        "stop_id": "1164",
+        "stop_name": "Retiro",
+        "stop_lat": -34.59240278,
+        "stop_lon": -58.37627222,
+        "route_id": "LineaE"
+    },
+    {
+        "stop_id": "1165",
+        "stop_name": "Catalinas",
+        "stop_lat": -34.59664167,
+        "stop_lon": -58.37190833,
+        "route_id": "LineaE"
+    },
+    {
+        "stop_id": "1166",
+        "stop_name": "Correo Central",
+        "stop_lat": -34.603125,
+        "stop_lon": -58.37019444,
+        "route_id": "LineaE"
+    }
+]
