@@ -6,8 +6,23 @@ const BusStop = (prisma: PrismaClient) => {
 
   // Endpoint para devolver todas las paradas de colectivo
   router.get('/', async (req, res) => {
+    const { latitude, longitude, radius } = req.query;
     try {
-      const busStops = await prisma.busStop.findMany()
+        const lat = parseFloat(latitude as string);
+        const long = parseFloat(longitude as string);
+        const rad = parseFloat(radius as string);
+        console.log(latitude, longitude, radius)
+        const busStops = await prisma.busStop.findMany({
+            where: {
+                AND: [
+                    { latitude: { gte: lat - rad / 111000 } }, // Aproximación de conversión
+                    { latitude: { lte: lat + rad / 111000 } },
+                    { longitude: { gte: long - rad / (111000 * Math.cos(lat * Math.PI / 180)) } },
+                    { longitude: { lte: long + rad / (111000 * Math.cos(lat * Math.PI / 180)) } }
+                ]
+            }
+        });
+      //const busStops = await prisma.busStop.findMany()
       res.json(busStops)
     } catch (error) {
       res.status(500).json({ error: "Error al obtener las paradas de autobús" })
