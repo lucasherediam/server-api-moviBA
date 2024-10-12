@@ -9,7 +9,7 @@ const addRoutes = (app: Express, prisma: PrismaClient) => {
         })
     })
     // Acá van las custom routers
-    app.use('/busstops/', BusStop(prisma))
+    app.use('/bus-stops', BusStop(prisma))
 }
 
 export default addRoutes
