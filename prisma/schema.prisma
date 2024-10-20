@@ -1,9 +1,3 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
-// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
-// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
-
 generator client {
     provider = "prisma-client-js"
 }
@@ -13,31 +7,69 @@ datasource db {
     url      = "file:./dev.db"
 }
 
-model BusStop {
-    stop_id        String         @id
-    stop_name      String
-    latitude       Float
-    longitude      Float
-    bus_stop_route BusStopRoute[]
-    user_bus_stop  UserBusStop[]
+model BusAgency {
+    agency_id   String @id
+    agency_name String
+
+    routes BusRoute[]
 }
 
-model BusStopRoute {
-    stop_id  String
-    route_id String
-    user_id  Int?
-
-    bus_stop BusStop @relation(fields: [stop_id], references: [stop_id])
-    route    Route   @relation(fields: [route_id], references: [route_id])
-
-    @@id([stop_id, route_id])
-}
-
-model Route {
-    route_id         String         @id
+model BusRoute {
+    route_id         String @id
+    agency_id        String
     route_short_name String
-    route_long_name  String
-    bus_stop_route   BusStopRoute[]
+
+    agency BusAgency      @relation(fields: [agency_id], references: [agency_id])
+    trips  BusTrip[]
+    stops  BusRouteStop[]
+}
+
+model BusStop {
+    stop_id   String @id
+    stop_name String
+    latitude  Float
+    longitude Float
+
+    routes BusRouteStop[]
+}
+
+model BusRouteStop {
+    route_id String
+    stop_id  String
+
+    route BusRoute @relation(fields: [route_id], references: [route_id])
+    stop  BusStop  @relation(fields: [stop_id], references: [stop_id])
+
+    @@id([route_id, stop_id])
+}
+
+model BusTrip {
+    trip_id       String  @id
+    route_id      String
+    service_id    String
+    trip_headsign String
+    shape_id      String?
+
+    route BusRoute  @relation(fields: [route_id], references: [route_id])
+    shape BusShape? @relation(fields: [shape_id], references: [shape_id])
+}
+
+model BusShape {
+    shape_id     String          @id
+    shape_points BusShapePoint[]
+    BusTrip      BusTrip[]
+}
+
+model BusShapePoint {
+    shape_id            String
+    shape_pt_lat        Float
+    shape_pt_lon        Float
+    shape_pt_sequence   Int
+    shape_dist_traveled Float?
+
+    shape BusShape @relation(fields: [shape_id], references: [shape_id])
+
+    @@id([shape_id, shape_pt_sequence])
 }
 
 model SubwayStation {
@@ -48,33 +80,9 @@ model SubwayStation {
     route_short_name String
 }
 
-model Trip {
-    trip_id       String @id
-    trip_headsign String
-}
-
 model StationParentStation {
     station_id     String
     parent_station String
 
     @@id([station_id, parent_station])
-}
-
-model User {
-    user_id       Int           @id @default(autoincrement())
-    name          String
-    lastname      String
-    email         String        @unique
-    password      String
-    user_bus_stop UserBusStop[]
-}
-
-model UserBusStop {
-    user_id Int
-    stop_id String
-
-    user     User    @relation(fields: [user_id], references: [user_id])
-    bus_stop BusStop @relation(fields: [stop_id], references: [stop_id])
-
-    @@id([user_id, stop_id])
 }

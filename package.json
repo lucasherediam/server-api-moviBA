@@ -19,9 +19,8 @@
     },
     "dependencies": {
         "@prisma/client": "^5.20.0",
+        "csv-parser": "^3.0.0",
+        "csv-writer": "^1.6.0",
         "express": "^4.21.1"
-    },
-    "prisma": {
-        "seed": "ts-node prisma/seed.ts"
     }
 }

@@ -1,6 +1,7 @@
 import { PrismaClient } from '@prisma/client'
 import express, { NextFunction, Request, Response } from 'express'
 import addRoutes from './routes'
+import { startTrafficAlertsCronJob } from './cronJobs/trafficAlerts';
 
 const prisma = new PrismaClient()
 const app = express()
@@ -20,6 +21,9 @@ function errorHandler(err: Error, req: Request, res: Response, next: NextFunctio
 
 app.use(logErrors)
 app.use(errorHandler)
+
+// Iniciar el cron job de alertas de tráfico
+// startTrafficAlertsCronJob(prisma);
 
 const server = app.listen(3000, () =>
   console.log(`
