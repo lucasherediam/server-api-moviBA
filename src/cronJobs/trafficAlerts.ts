@@ -2,8 +2,8 @@ import { type PrismaClient } from '@prisma/client';
 import cron from 'node-cron';
 import fetch from 'node-fetch';
 
-const client_id = 'ca862fce334f4853ac853adbe58a9d20';
-const client_secret = 'e5c0dD503104435E8FEDa2D3Ab2B0Bf2';
+const client_id = process.env.CLIENT_ID || '';
+const client_secret = process.env.CLIENT_SECRET || '';
 
 export function startTrafficAlertsCronJob(prisma: PrismaClient) {
   cron.schedule('*/10 * * * * *', async () => {
