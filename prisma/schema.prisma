@@ -31,6 +31,8 @@ model BusStop {
     longitude Float
 
     routes BusRouteStop[]
+
+    User User[]
 }
 
 model BusRouteStop {
@@ -85,4 +87,13 @@ model StationParentStation {
     parent_station String
 
     @@id([station_id, parent_station])
+}
+
+model User {
+    user_id String 
+    stop_id String
+
+    stop BusStop @relation(fields: [stop_id], references: [stop_id])
+
+    @@id([user_id, stop_id])
 }

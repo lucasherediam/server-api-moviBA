@@ -280,6 +280,69 @@ async function seedBusStopRoute(filePath) {
     console.log('Datos insertados correctamente en BusStopRoute');
 }
 
+// Importar BusStop desde JSON en transacción
+async function seedSubwayStations(filePath) {
+    try {
+        const data = fs.readFileSync(filePath, 'utf8');
+        const stops = JSON.parse(data);
+        const batchSize = 50;
+        let batch = [];
+
+        for (const stop of stops) {
+            batch.push({
+                station_id: stop.stop_id,
+                station_name: stop.stop_name || null,
+                latitude: parseFloat(stop.stop_lat),
+                longitude: parseFloat(stop.stop_lon),
+                route_short_name: stop.route_id,
+            });
+
+            if (batch.length >= batchSize) {
+                await safeCreateMany(prisma.subwayStation, batch, batchSize);
+                batch = [];
+            }
+        }
+
+        if (batch.length > 0) {
+            await safeCreateMany(prisma.subwayStation, batch, batchSize);
+        }
+
+        console.log("Importación de estaciones completada desde JSON.");
+    } catch (error) {
+        console.error("Error al importar paradas desde JSON:", error);
+    }
+}
+
+// Importar BusStop desde JSON en transacción
+async function seedStationParentStation(filePath) {
+    try {
+        const data = fs.readFileSync(filePath, 'utf8');
+        const stops = JSON.parse(data);
+        const batchSize = 50;
+        let batch = [];
+
+        for (const stop of stops) {
+            batch.push({
+                station_id: stop.stop_id,
+                parent_station: stop.parent_station,
+            });
+
+            if (batch.length >= batchSize) {
+                await safeCreateMany(prisma.stationParentStation, batch, batchSize);
+                batch = [];
+            }
+        }
+
+        if (batch.length > 0) {
+            await safeCreateMany(prisma.stationParentStation, batch, batchSize);
+        }
+
+        console.log("Importación de estaciones completada desde JSON.");
+    } catch (error) {
+        console.error("Error al importar paradas desde JSON:", error);
+    }
+}
+
 // Ejecutar el seed tabla por tabla usando transacciones
 (async function main() {
     await connectPrisma();
@@ -289,6 +352,8 @@ async function seedBusStopRoute(filePath) {
     // await seedShapes();
     // await seedTrips();
     // await seedBusStopRoute('./assets/routes_stops.json');
+    // await seedSubwayStations('./assets/subway_stations.json');
+    await seedStationParentStation('./assets/station_parent_station.json');
     console.log("Proceso de seed completado.");
     await prisma.$disconnect();
 })();

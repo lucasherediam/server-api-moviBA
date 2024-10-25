@@ -1,0 +1,2398 @@
+[
+    {
+        "stop_id": "11143",
+        "parent_station": "1114.0"
+    },
+    {
+        "stop_id": "11146",
+        "parent_station": "1114.0"
+    },
+    {
+        "stop_id": "11144",
+        "parent_station": "1114.0"
+    },
+    {
+        "stop_id": "11142",
+        "parent_station": "1114.0"
+    },
+    {
+        "stop_id": "1164S",
+        "parent_station": "1164.0"
+    },
+    {
+        "stop_id": "1165N",
+        "parent_station": "1165.0"
+    },
+    {
+        "stop_id": "1165S",
+        "parent_station": "1165.0"
+    },
+    {
+        "stop_id": "1166N",
+        "parent_station": "1166.0"
+    },
+    {
+        "stop_id": "1166S",
+        "parent_station": "1166.0"
+    },
+    {
+        "stop_id": "11641",
+        "parent_station": "1164.0"
+    },
+    {
+        "stop_id": "11643",
+        "parent_station": "1164.0"
+    },
+    {
+        "stop_id": "11645",
+        "parent_station": "1164.0"
+    },
+    {
+        "stop_id": "11647",
+        "parent_station": "1164.0"
+    },
+    {
+        "stop_id": "11642",
+        "parent_station": "1164.0"
+    },
+    {
+        "stop_id": "11644",
+        "parent_station": "1164.0"
+    },
+    {
+        "stop_id": "11651",
+        "parent_station": "1165.0"
+    },
+    {
+        "stop_id": "11652",
+        "parent_station": "1165.0"
+    },
+    {
+        "stop_id": "11653",
+        "parent_station": "1165.0"
+    },
+    {
+        "stop_id": "11654",
+        "parent_station": "1165.0"
+    },
+    {
+        "stop_id": "11662",
+        "parent_station": "1166.0"
+    },
+    {
+        "stop_id": "11666",
+        "parent_station": "1166.0"
+    },
+    {
+        "stop_id": "11668",
+        "parent_station": "1166.0"
+    },
+    {
+        "stop_id": "11669",
+        "parent_station": "1166.0"
+    },
+    {
+        "stop_id": "116611",
+        "parent_station": "1166.0"
+    },
+    {
+        "stop_id": "10993",
+        "parent_station": "1099.0"
+    },
+    {
+        "stop_id": "10991",
+        "parent_station": "1099.0"
+    },
+    {
+        "stop_id": "11147",
+        "parent_station": "1114.0"
+    },
+    {
+        "stop_id": "10915",
+        "parent_station": "1091.0"
+    },
+    {
+        "stop_id": "11178",
+        "parent_station": "1117.0"
+    },
+    {
+        "stop_id": "11065",
+        "parent_station": "1106.0"
+    },
+    {
+        "stop_id": "11056",
+        "parent_station": "1105.0"
+    },
+    {
+        "stop_id": "11135",
+        "parent_station": "1113.0"
+    },
+    {
+        "stop_id": "1164N",
+        "parent_station": "1164.0"
+    },
+    {
+        "stop_id": "1059N",
+        "parent_station": "1059.0"
+    },
+    {
+        "stop_id": "1059S",
+        "parent_station": "1059.0"
+    },
+    {
+        "stop_id": "1060N",
+        "parent_station": "1060.0"
+    },
+    {
+        "stop_id": "1060S",
+        "parent_station": "1060.0"
+    },
+    {
+        "stop_id": "1061N",
+        "parent_station": "1061.0"
+    },
+    {
+        "stop_id": "1061S",
+        "parent_station": "1061.0"
+    },
+    {
+        "stop_id": "1062N",
+        "parent_station": "1062.0"
+    },
+    {
+        "stop_id": "1062S",
+        "parent_station": "1062.0"
+    },
+    {
+        "stop_id": "1063N",
+        "parent_station": "1063.0"
+    },
+    {
+        "stop_id": "1063S",
+        "parent_station": "1063.0"
+    },
+    {
+        "stop_id": "1064N",
+        "parent_station": "1064.0"
+    },
+    {
+        "stop_id": "1064S",
+        "parent_station": "1064.0"
+    },
+    {
+        "stop_id": "1065N",
+        "parent_station": "1065.0"
+    },
+    {
+        "stop_id": "1065S",
+        "parent_station": "1065.0"
+    },
+    {
+        "stop_id": "1066N",
+        "parent_station": "1066.0"
+    },
+    {
+        "stop_id": "1066S",
+        "parent_station": "1066.0"
+    },
+    {
+        "stop_id": "1067N",
+        "parent_station": "1067.0"
+    },
+    {
+        "stop_id": "1067S",
+        "parent_station": "1067.0"
+    },
+    {
+        "stop_id": "1068N",
+        "parent_station": "1068.0"
+    },
+    {
+        "stop_id": "1068S",
+        "parent_station": "1068.0"
+    },
+    {
+        "stop_id": "1069S",
+        "parent_station": "1069.0"
+    },
+    {
+        "stop_id": "1070N",
+        "parent_station": "1070.0"
+    },
+    {
+        "stop_id": "1071N",
+        "parent_station": "1071.0"
+    },
+    {
+        "stop_id": "1071S",
+        "parent_station": "1071.0"
+    },
+    {
+        "stop_id": "1072N",
+        "parent_station": "1072.0"
+    },
+    {
+        "stop_id": "1072S",
+        "parent_station": "1072.0"
+    },
+    {
+        "stop_id": "1073N",
+        "parent_station": "1073.0"
+    },
+    {
+        "stop_id": "1073S",
+        "parent_station": "1073.0"
+    },
+    {
+        "stop_id": "1074N",
+        "parent_station": "1074.0"
+    },
+    {
+        "stop_id": "1074S",
+        "parent_station": "1074.0"
+    },
+    {
+        "stop_id": "1075N",
+        "parent_station": "1075.0"
+    },
+    {
+        "stop_id": "1075S",
+        "parent_station": "1075.0"
+    },
+    {
+        "stop_id": "1076N",
+        "parent_station": "1076.0"
+    },
+    {
+        "stop_id": "1076S",
+        "parent_station": "1076.0"
+    },
+    {
+        "stop_id": "1077N",
+        "parent_station": "1077.0"
+    },
+    {
+        "stop_id": "1077S",
+        "parent_station": "1077.0"
+    },
+    {
+        "stop_id": "1078N",
+        "parent_station": "1078.0"
+    },
+    {
+        "stop_id": "1078S",
+        "parent_station": "1078.0"
+    },
+    {
+        "stop_id": "1079N",
+        "parent_station": "1079.0"
+    },
+    {
+        "stop_id": "1079S",
+        "parent_station": "1079.0"
+    },
+    {
+        "stop_id": "1080N",
+        "parent_station": "1080.0"
+    },
+    {
+        "stop_id": "1080S",
+        "parent_station": "1080.0"
+    },
+    {
+        "stop_id": "1081N",
+        "parent_station": "1081.0"
+    },
+    {
+        "stop_id": "1081S",
+        "parent_station": "1081.0"
+    },
+    {
+        "stop_id": "1082N",
+        "parent_station": "1082.0"
+    },
+    {
+        "stop_id": "1082S",
+        "parent_station": "1082.0"
+    },
+    {
+        "stop_id": "1083N",
+        "parent_station": "1083.0"
+    },
+    {
+        "stop_id": "1083S",
+        "parent_station": "1083.0"
+    },
+    {
+        "stop_id": "1084N",
+        "parent_station": "1084.0"
+    },
+    {
+        "stop_id": "1084S",
+        "parent_station": "1084.0"
+    },
+    {
+        "stop_id": "1085N",
+        "parent_station": "1085.0"
+    },
+    {
+        "stop_id": "1085S",
+        "parent_station": "1085.0"
+    },
+    {
+        "stop_id": "1086N",
+        "parent_station": "1086.0"
+    },
+    {
+        "stop_id": "1086S",
+        "parent_station": "1086.0"
+    },
+    {
+        "stop_id": "1087N",
+        "parent_station": "1087.0"
+    },
+    {
+        "stop_id": "1087S",
+        "parent_station": "1087.0"
+    },
+    {
+        "stop_id": "1088N",
+        "parent_station": "1088.0"
+    },
+    {
+        "stop_id": "1088S",
+        "parent_station": "1088.0"
+    },
+    {
+        "stop_id": "1089N",
+        "parent_station": "1089.0"
+    },
+    {
+        "stop_id": "1089S",
+        "parent_station": "1089.0"
+    },
+    {
+        "stop_id": "1090N",
+        "parent_station": "1090.0"
+    },
+    {
+        "stop_id": "1090S",
+        "parent_station": "1090.0"
+    },
+    {
+        "stop_id": "1091N",
+        "parent_station": "1091.0"
+    },
+    {
+        "stop_id": "1091S",
+        "parent_station": "1091.0"
+    },
+    {
+        "stop_id": "1092N",
+        "parent_station": "1092.0"
+    },
+    {
+        "stop_id": "1092S",
+        "parent_station": "1092.0"
+    },
+    {
+        "stop_id": "1093N",
+        "parent_station": "1093.0"
+    },
+    {
+        "stop_id": "1093S",
+        "parent_station": "1093.0"
+    },
+    {
+        "stop_id": "1094E",
+        "parent_station": "1094.0"
+    },
+    {
+        "stop_id": "1094O",
+        "parent_station": "1094.0"
+    },
+    {
+        "stop_id": "1095E",
+        "parent_station": "1095.0"
+    },
+    {
+        "stop_id": "1095O",
+        "parent_station": "1095.0"
+    },
+    {
+        "stop_id": "1096E",
+        "parent_station": "1096.0"
+    },
+    {
+        "stop_id": "1096O",
+        "parent_station": "1096.0"
+    },
+    {
+        "stop_id": "1097E",
+        "parent_station": "1097.0"
+    },
+    {
+        "stop_id": "1097O",
+        "parent_station": "1097.0"
+    },
+    {
+        "stop_id": "1098E",
+        "parent_station": "1098.0"
+    },
+    {
+        "stop_id": "1098O",
+        "parent_station": "1098.0"
+    },
+    {
+        "stop_id": "1099E",
+        "parent_station": "1099.0"
+    },
+    {
+        "stop_id": "1099O",
+        "parent_station": "1099.0"
+    },
+    {
+        "stop_id": "1100E",
+        "parent_station": "1100.0"
+    },
+    {
+        "stop_id": "1100O",
+        "parent_station": "1100.0"
+    },
+    {
+        "stop_id": "1101E",
+        "parent_station": "1101.0"
+    },
+    {
+        "stop_id": "1101O",
+        "parent_station": "1101.0"
+    },
+    {
+        "stop_id": "1102E",
+        "parent_station": "1102.0"
+    },
+    {
+        "stop_id": "1102O",
+        "parent_station": "1102.0"
+    },
+    {
+        "stop_id": "1103N",
+        "parent_station": "1103.0"
+    },
+    {
+        "stop_id": "1103S",
+        "parent_station": "1103.0"
+    },
+    {
+        "stop_id": "1104N",
+        "parent_station": "1104.0"
+    },
+    {
+        "stop_id": "1104S",
+        "parent_station": "1104.0"
+    },
+    {
+        "stop_id": "1105N",
+        "parent_station": "1105.0"
+    },
+    {
+        "stop_id": "1105S",
+        "parent_station": "1105.0"
+    },
+    {
+        "stop_id": "1106N",
+        "parent_station": "1106.0"
+    },
+    {
+        "stop_id": "1106S",
+        "parent_station": "1106.0"
+    },
+    {
+        "stop_id": "1107N",
+        "parent_station": "1107.0"
+    },
+    {
+        "stop_id": "1107S",
+        "parent_station": "1107.0"
+    },
+    {
+        "stop_id": "1108N",
+        "parent_station": "1108.0"
+    },
+    {
+        "stop_id": "1108S",
+        "parent_station": "1108.0"
+    },
+    {
+        "stop_id": "1109N",
+        "parent_station": "1109.0"
+    },
+    {
+        "stop_id": "1109S",
+        "parent_station": "1109.0"
+    },
+    {
+        "stop_id": "1110N",
+        "parent_station": "1110.0"
+    },
+    {
+        "stop_id": "1110S",
+        "parent_station": "1110.0"
+    },
+    {
+        "stop_id": "1111N",
+        "parent_station": "1111.0"
+    },
+    {
+        "stop_id": "1111S",
+        "parent_station": "1111.0"
+    },
+    {
+        "stop_id": "1112N",
+        "parent_station": "1112.0"
+    },
+    {
+        "stop_id": "1112S",
+        "parent_station": "1112.0"
+    },
+    {
+        "stop_id": "1113N",
+        "parent_station": "1113.0"
+    },
+    {
+        "stop_id": "1113S",
+        "parent_station": "1113.0"
+    },
+    {
+        "stop_id": "1114N",
+        "parent_station": "1114.0"
+    },
+    {
+        "stop_id": "1114S",
+        "parent_station": "1114.0"
+    },
+    {
+        "stop_id": "1115N",
+        "parent_station": "1115.0"
+    },
+    {
+        "stop_id": "1115S",
+        "parent_station": "1115.0"
+    },
+    {
+        "stop_id": "1116N",
+        "parent_station": "1116.0"
+    },
+    {
+        "stop_id": "1116S",
+        "parent_station": "1116.0"
+    },
+    {
+        "stop_id": "1117N",
+        "parent_station": "1117.0"
+    },
+    {
+        "stop_id": "1117S",
+        "parent_station": "1117.0"
+    },
+    {
+        "stop_id": "1118N",
+        "parent_station": "1118.0"
+    },
+    {
+        "stop_id": "1118S",
+        "parent_station": "1118.0"
+    },
+    {
+        "stop_id": "1119N",
+        "parent_station": "1119.0"
+    },
+    {
+        "stop_id": "1119S",
+        "parent_station": "1119.0"
+    },
+    {
+        "stop_id": "1120N",
+        "parent_station": "1120.0"
+    },
+    {
+        "stop_id": "1120S",
+        "parent_station": "1120.0"
+    },
+    {
+        "stop_id": "1121N",
+        "parent_station": "1121.0"
+    },
+    {
+        "stop_id": "1121S",
+        "parent_station": "1121.0"
+    },
+    {
+        "stop_id": "1122N",
+        "parent_station": "1122.0"
+    },
+    {
+        "stop_id": "1122S",
+        "parent_station": "1122.0"
+    },
+    {
+        "stop_id": "1123N",
+        "parent_station": "1123.0"
+    },
+    {
+        "stop_id": "1123S",
+        "parent_station": "1123.0"
+    },
+    {
+        "stop_id": "1124N",
+        "parent_station": "1124.0"
+    },
+    {
+        "stop_id": "1124S",
+        "parent_station": "1124.0"
+    },
+    {
+        "stop_id": "1125N",
+        "parent_station": "1125.0"
+    },
+    {
+        "stop_id": "1125S",
+        "parent_station": "1125.0"
+    },
+    {
+        "stop_id": "1126N",
+        "parent_station": "1126.0"
+    },
+    {
+        "stop_id": "1126S",
+        "parent_station": "1126.0"
+    },
+    {
+        "stop_id": "1127N",
+        "parent_station": "1127.0"
+    },
+    {
+        "stop_id": "1127S",
+        "parent_station": "1127.0"
+    },
+    {
+        "stop_id": "1128N",
+        "parent_station": "1128.0"
+    },
+    {
+        "stop_id": "1128S",
+        "parent_station": "1128.0"
+    },
+    {
+        "stop_id": "1129N",
+        "parent_station": "1129.0"
+    },
+    {
+        "stop_id": "1129S",
+        "parent_station": "1129.0"
+    },
+    {
+        "stop_id": "1130N",
+        "parent_station": "1130.0"
+    },
+    {
+        "stop_id": "1130S",
+        "parent_station": "1130.0"
+    },
+    {
+        "stop_id": "1131N",
+        "parent_station": "1131.0"
+    },
+    {
+        "stop_id": "1131S",
+        "parent_station": "1131.0"
+    },
+    {
+        "stop_id": "1132N",
+        "parent_station": "1132.0"
+    },
+    {
+        "stop_id": "1132S",
+        "parent_station": "1132.0"
+    },
+    {
+        "stop_id": "1133N",
+        "parent_station": "1133.0"
+    },
+    {
+        "stop_id": "1133S",
+        "parent_station": "1133.0"
+    },
+    {
+        "stop_id": "1134E",
+        "parent_station": "1134.0"
+    },
+    {
+        "stop_id": "1134O",
+        "parent_station": "1134.0"
+    },
+    {
+        "stop_id": "1135E",
+        "parent_station": "1135.0"
+    },
+    {
+        "stop_id": "1135O",
+        "parent_station": "1135.0"
+    },
+    {
+        "stop_id": "1136E",
+        "parent_station": "1136.0"
+    },
+    {
+        "stop_id": "1136O",
+        "parent_station": "1136.0"
+    },
+    {
+        "stop_id": "1137E",
+        "parent_station": "1137.0"
+    },
+    {
+        "stop_id": "1137O",
+        "parent_station": "1137.0"
+    },
+    {
+        "stop_id": "1138E",
+        "parent_station": "1138.0"
+    },
+    {
+        "stop_id": "1138O",
+        "parent_station": "1138.0"
+    },
+    {
+        "stop_id": "1139E",
+        "parent_station": "1139.0"
+    },
+    {
+        "stop_id": "1139O",
+        "parent_station": "1139.0"
+    },
+    {
+        "stop_id": "1140E",
+        "parent_station": "1140.0"
+    },
+    {
+        "stop_id": "1140O",
+        "parent_station": "1140.0"
+    },
+    {
+        "stop_id": "1141E",
+        "parent_station": "1141.0"
+    },
+    {
+        "stop_id": "1141O",
+        "parent_station": "1141.0"
+    },
+    {
+        "stop_id": "1142N",
+        "parent_station": "1142.0"
+    },
+    {
+        "stop_id": "1142S",
+        "parent_station": "1142.0"
+    },
+    {
+        "stop_id": "1143N",
+        "parent_station": "1143.0"
+    },
+    {
+        "stop_id": "1143S",
+        "parent_station": "1143.0"
+    },
+    {
+        "stop_id": "1144N",
+        "parent_station": "1144.0"
+    },
+    {
+        "stop_id": "1144S",
+        "parent_station": "1144.0"
+    },
+    {
+        "stop_id": "1145N",
+        "parent_station": "1145.0"
+    },
+    {
+        "stop_id": "1145S",
+        "parent_station": "1145.0"
+    },
+    {
+        "stop_id": "1146N",
+        "parent_station": "1146.0"
+    },
+    {
+        "stop_id": "1146S",
+        "parent_station": "1146.0"
+    },
+    {
+        "stop_id": "1147N",
+        "parent_station": "1147.0"
+    },
+    {
+        "stop_id": "1147S",
+        "parent_station": "1147.0"
+    },
+    {
+        "stop_id": "1148N",
+        "parent_station": "1148.0"
+    },
+    {
+        "stop_id": "1148S",
+        "parent_station": "1148.0"
+    },
+    {
+        "stop_id": "1149N",
+        "parent_station": "1149.0"
+    },
+    {
+        "stop_id": "1149S",
+        "parent_station": "1149.0"
+    },
+    {
+        "stop_id": "1150N",
+        "parent_station": "1150.0"
+    },
+    {
+        "stop_id": "1150S",
+        "parent_station": "1150.0"
+    },
+    {
+        "stop_id": "1151N",
+        "parent_station": "1151.0"
+    },
+    {
+        "stop_id": "1151S",
+        "parent_station": "1151.0"
+    },
+    {
+        "stop_id": "1152N",
+        "parent_station": "1152.0"
+    },
+    {
+        "stop_id": "1152S",
+        "parent_station": "1152.0"
+    },
+    {
+        "stop_id": "1153N",
+        "parent_station": "1153.0"
+    },
+    {
+        "stop_id": "1153S",
+        "parent_station": "1153.0"
+    },
+    {
+        "stop_id": "1154N",
+        "parent_station": "1154.0"
+    },
+    {
+        "stop_id": "1154S",
+        "parent_station": "1154.0"
+    },
+    {
+        "stop_id": "1155N",
+        "parent_station": "1155.0"
+    },
+    {
+        "stop_id": "1155S",
+        "parent_station": "1155.0"
+    },
+    {
+        "stop_id": "1156N",
+        "parent_station": "1156.0"
+    },
+    {
+        "stop_id": "1156S",
+        "parent_station": "1156.0"
+    },
+    {
+        "stop_id": "1157N",
+        "parent_station": "1157.0"
+    },
+    {
+        "stop_id": "1157S",
+        "parent_station": "1157.0"
+    },
+    {
+        "stop_id": "1158N",
+        "parent_station": "1158.0"
+    },
+    {
+        "stop_id": "1158S",
+        "parent_station": "1158.0"
+    },
+    {
+        "stop_id": "1159N",
+        "parent_station": "1159.0"
+    },
+    {
+        "stop_id": "1159S",
+        "parent_station": "1159.0"
+    },
+    {
+        "stop_id": "1160E",
+        "parent_station": "1160.0"
+    },
+    {
+        "stop_id": "1160O",
+        "parent_station": "1160.0"
+    },
+    {
+        "stop_id": "1161E",
+        "parent_station": "1161.0"
+    },
+    {
+        "stop_id": "1161O",
+        "parent_station": "1161.0"
+    },
+    {
+        "stop_id": "1162E",
+        "parent_station": "1162.0"
+    },
+    {
+        "stop_id": "1162O",
+        "parent_station": "1162.0"
+    },
+    {
+        "stop_id": "1163E",
+        "parent_station": "1163.0"
+    },
+    {
+        "stop_id": "1163O",
+        "parent_station": "1163.0"
+    },
+    {
+        "stop_id": "10982",
+        "parent_station": "1098.0"
+    },
+    {
+        "stop_id": "10983",
+        "parent_station": "1098.0"
+    },
+    {
+        "stop_id": "10984",
+        "parent_station": "1098.0"
+    },
+    {
+        "stop_id": "10751",
+        "parent_station": "1075.0"
+    },
+    {
+        "stop_id": "10743",
+        "parent_station": "1074.0"
+    },
+    {
+        "stop_id": "10733",
+        "parent_station": "1073.0"
+    },
+    {
+        "stop_id": "10723",
+        "parent_station": "1072.0"
+    },
+    {
+        "stop_id": "10722",
+        "parent_station": "1072.0"
+    },
+    {
+        "stop_id": "10713",
+        "parent_station": "1071.0"
+    },
+    {
+        "stop_id": "10712",
+        "parent_station": "1071.0"
+    },
+    {
+        "stop_id": "10672",
+        "parent_station": "1067.0"
+    },
+    {
+        "stop_id": "10664",
+        "parent_station": "1066.0"
+    },
+    {
+        "stop_id": "10613",
+        "parent_station": "1061.0"
+    },
+    {
+        "stop_id": "10601",
+        "parent_station": "1060.0"
+    },
+    {
+        "stop_id": "10604",
+        "parent_station": "1060.0"
+    },
+    {
+        "stop_id": "10595",
+        "parent_station": "1059.0"
+    },
+    {
+        "stop_id": "10935",
+        "parent_station": "1093.0"
+    },
+    {
+        "stop_id": "10901",
+        "parent_station": "1090.0"
+    },
+    {
+        "stop_id": "10891",
+        "parent_station": "1089.0"
+    },
+    {
+        "stop_id": "10873",
+        "parent_station": "1087.0"
+    },
+    {
+        "stop_id": "10854",
+        "parent_station": "1085.0"
+    },
+    {
+        "stop_id": "10832",
+        "parent_station": "1083.0"
+    },
+    {
+        "stop_id": "10844",
+        "parent_station": "1084.0"
+    },
+    {
+        "stop_id": "10824",
+        "parent_station": "1082.0"
+    },
+    {
+        "stop_id": "10814",
+        "parent_station": "1081.0"
+    },
+    {
+        "stop_id": "10793",
+        "parent_station": "1079.0"
+    },
+    {
+        "stop_id": "11621",
+        "parent_station": "1162.0"
+    },
+    {
+        "stop_id": "11302",
+        "parent_station": "1130.0"
+    },
+    {
+        "stop_id": "10783",
+        "parent_station": "1078.0"
+    },
+    {
+        "stop_id": "10981",
+        "parent_station": "1098.0"
+    },
+    {
+        "stop_id": "10633",
+        "parent_station": "1063.0"
+    },
+    {
+        "stop_id": "11281",
+        "parent_station": "1128.0"
+    },
+    {
+        "stop_id": "11282",
+        "parent_station": "1128.0"
+    },
+    {
+        "stop_id": "11283",
+        "parent_station": "1128.0"
+    },
+    {
+        "stop_id": "11284",
+        "parent_station": "1128.0"
+    },
+    {
+        "stop_id": "11285",
+        "parent_station": "1128.0"
+    },
+    {
+        "stop_id": "11286",
+        "parent_station": "1128.0"
+    },
+    {
+        "stop_id": "11201",
+        "parent_station": "1120.0"
+    },
+    {
+        "stop_id": "11202",
+        "parent_station": "1120.0"
+    },
+    {
+        "stop_id": "11203",
+        "parent_station": "1120.0"
+    },
+    {
+        "stop_id": "11204",
+        "parent_station": "1120.0"
+    },
+    {
+        "stop_id": "11271",
+        "parent_station": "1127.0"
+    },
+    {
+        "stop_id": "11272",
+        "parent_station": "1127.0"
+    },
+    {
+        "stop_id": "11273",
+        "parent_station": "1127.0"
+    },
+    {
+        "stop_id": "11274",
+        "parent_station": "1127.0"
+    },
+    {
+        "stop_id": "11191",
+        "parent_station": "1119.0"
+    },
+    {
+        "stop_id": "11192",
+        "parent_station": "1119.0"
+    },
+    {
+        "stop_id": "11194",
+        "parent_station": "1119.0"
+    },
+    {
+        "stop_id": "11195",
+        "parent_station": "1119.0"
+    },
+    {
+        "stop_id": "11197",
+        "parent_station": "1119.0"
+    },
+    {
+        "stop_id": "11031",
+        "parent_station": "1103.0"
+    },
+    {
+        "stop_id": "11032",
+        "parent_station": "1103.0"
+    },
+    {
+        "stop_id": "11034",
+        "parent_station": "1103.0"
+    },
+    {
+        "stop_id": "11036",
+        "parent_station": "1103.0"
+    },
+    {
+        "stop_id": "11038",
+        "parent_station": "1103.0"
+    },
+    {
+        "stop_id": "11030",
+        "parent_station": "1103.0"
+    },
+    {
+        "stop_id": "11052",
+        "parent_station": "1105.0"
+    },
+    {
+        "stop_id": "11053",
+        "parent_station": "1105.0"
+    },
+    {
+        "stop_id": "11054",
+        "parent_station": "1105.0"
+    },
+    {
+        "stop_id": "11041",
+        "parent_station": "1104.0"
+    },
+    {
+        "stop_id": "11042",
+        "parent_station": "1104.0"
+    },
+    {
+        "stop_id": "11043",
+        "parent_station": "1104.0"
+    },
+    {
+        "stop_id": "11301",
+        "parent_station": "1130.0"
+    },
+    {
+        "stop_id": "11231",
+        "parent_station": "1123.0"
+    },
+    {
+        "stop_id": "11232",
+        "parent_station": "1123.0"
+    },
+    {
+        "stop_id": "11233",
+        "parent_station": "1123.0"
+    },
+    {
+        "stop_id": "11234",
+        "parent_station": "1123.0"
+    },
+    {
+        "stop_id": "11071",
+        "parent_station": "1107.0"
+    },
+    {
+        "stop_id": "11072",
+        "parent_station": "1107.0"
+    },
+    {
+        "stop_id": "11073",
+        "parent_station": "1107.0"
+    },
+    {
+        "stop_id": "11074",
+        "parent_station": "1107.0"
+    },
+    {
+        "stop_id": "11075",
+        "parent_station": "1107.0"
+    },
+    {
+        "stop_id": "11077",
+        "parent_station": "1107.0"
+    },
+    {
+        "stop_id": "11061",
+        "parent_station": "1106.0"
+    },
+    {
+        "stop_id": "11062",
+        "parent_station": "1106.0"
+    },
+    {
+        "stop_id": "11063",
+        "parent_station": "1106.0"
+    },
+    {
+        "stop_id": "11064",
+        "parent_station": "1106.0"
+    },
+    {
+        "stop_id": "11081",
+        "parent_station": "1108.0"
+    },
+    {
+        "stop_id": "11082",
+        "parent_station": "1108.0"
+    },
+    {
+        "stop_id": "10641",
+        "parent_station": "1064.0"
+    },
+    {
+        "stop_id": "10643",
+        "parent_station": "1064.0"
+    },
+    {
+        "stop_id": "10645",
+        "parent_station": "1064.0"
+    },
+    {
+        "stop_id": "10642",
+        "parent_station": "1064.0"
+    },
+    {
+        "stop_id": "10644",
+        "parent_station": "1064.0"
+    },
+    {
+        "stop_id": "10646",
+        "parent_station": "1064.0"
+    },
+    {
+        "stop_id": "10692",
+        "parent_station": "1069.0"
+    },
+    {
+        "stop_id": "10694",
+        "parent_station": "1069.0"
+    },
+    {
+        "stop_id": "11183",
+        "parent_station": "1118.0"
+    },
+    {
+        "stop_id": "11161",
+        "parent_station": "1116.0"
+    },
+    {
+        "stop_id": "11151",
+        "parent_station": "1115.0"
+    },
+    {
+        "stop_id": "11141",
+        "parent_station": "1114.0"
+    },
+    {
+        "stop_id": "11132",
+        "parent_station": "1113.0"
+    },
+    {
+        "stop_id": "11121",
+        "parent_station": "1112.0"
+    },
+    {
+        "stop_id": "11114",
+        "parent_station": "1111.0"
+    },
+    {
+        "stop_id": "11094",
+        "parent_station": "1109.0"
+    },
+    {
+        "stop_id": "11084",
+        "parent_station": "1108.0"
+    },
+    {
+        "stop_id": "11051",
+        "parent_station": "1105.0"
+    },
+    {
+        "stop_id": "11044",
+        "parent_station": "1104.0"
+    },
+    {
+        "stop_id": "11045",
+        "parent_station": "1104.0"
+    },
+    {
+        "stop_id": "11193",
+        "parent_station": "1119.0"
+    },
+    {
+        "stop_id": "11214",
+        "parent_station": "1121.0"
+    },
+    {
+        "stop_id": "11361",
+        "parent_station": "1136.0"
+    },
+    {
+        "stop_id": "11363",
+        "parent_station": "1136.0"
+    },
+    {
+        "stop_id": "11412",
+        "parent_station": "1141.0"
+    },
+    {
+        "stop_id": "11414",
+        "parent_station": "1141.0"
+    },
+    {
+        "stop_id": "11383",
+        "parent_station": "1138.0"
+    },
+    {
+        "stop_id": "11371",
+        "parent_station": "1137.0"
+    },
+    {
+        "stop_id": "11376",
+        "parent_station": "1137.0"
+    },
+    {
+        "stop_id": "11391",
+        "parent_station": "1139.0"
+    },
+    {
+        "stop_id": "11392",
+        "parent_station": "1139.0"
+    },
+    {
+        "stop_id": "E8",
+        "parent_station": "1094.0"
+    },
+    {
+        "stop_id": "10892",
+        "parent_station": "1089.0"
+    },
+    {
+        "stop_id": "10893",
+        "parent_station": "1089.0"
+    },
+    {
+        "stop_id": "10894",
+        "parent_station": "1089.0"
+    },
+    {
+        "stop_id": "10895",
+        "parent_station": "1089.0"
+    },
+    {
+        "stop_id": "10896",
+        "parent_station": "1089.0"
+    },
+    {
+        "stop_id": "10897",
+        "parent_station": "1089.0"
+    },
+    {
+        "stop_id": "10861",
+        "parent_station": "1086.0"
+    },
+    {
+        "stop_id": "10862",
+        "parent_station": "1086.0"
+    },
+    {
+        "stop_id": "10863",
+        "parent_station": "1086.0"
+    },
+    {
+        "stop_id": "10864",
+        "parent_station": "1086.0"
+    },
+    {
+        "stop_id": "10865",
+        "parent_station": "1086.0"
+    },
+    {
+        "stop_id": "10911",
+        "parent_station": "1091.0"
+    },
+    {
+        "stop_id": "10912",
+        "parent_station": "1091.0"
+    },
+    {
+        "stop_id": "10913",
+        "parent_station": "1091.0"
+    },
+    {
+        "stop_id": "10914",
+        "parent_station": "1091.0"
+    },
+    {
+        "stop_id": "10791",
+        "parent_station": "1079.0"
+    },
+    {
+        "stop_id": "10792",
+        "parent_station": "1079.0"
+    },
+    {
+        "stop_id": "10794",
+        "parent_station": "1079.0"
+    },
+    {
+        "stop_id": "10822",
+        "parent_station": "1082.0"
+    },
+    {
+        "stop_id": "10821",
+        "parent_station": "1082.0"
+    },
+    {
+        "stop_id": "10823",
+        "parent_station": "1082.0"
+    },
+    {
+        "stop_id": "10781",
+        "parent_station": "1078.0"
+    },
+    {
+        "stop_id": "10782",
+        "parent_station": "1078.0"
+    },
+    {
+        "stop_id": "10784",
+        "parent_station": "1078.0"
+    },
+    {
+        "stop_id": "10786",
+        "parent_station": "1078.0"
+    },
+    {
+        "stop_id": "10812",
+        "parent_station": "1081.0"
+    },
+    {
+        "stop_id": "10815",
+        "parent_station": "1081.0"
+    },
+    {
+        "stop_id": "10816",
+        "parent_station": "1081.0"
+    },
+    {
+        "stop_id": "10811",
+        "parent_station": "1081.0"
+    },
+    {
+        "stop_id": "10810",
+        "parent_station": "1081.0"
+    },
+    {
+        "stop_id": "10813",
+        "parent_station": "1081.0"
+    },
+    {
+        "stop_id": "10817",
+        "parent_station": "1081.0"
+    },
+    {
+        "stop_id": "10818",
+        "parent_station": "1081.0"
+    },
+    {
+        "stop_id": "10819",
+        "parent_station": "1081.0"
+    },
+    {
+        "stop_id": "10921",
+        "parent_station": "1092.0"
+    },
+    {
+        "stop_id": "10922",
+        "parent_station": "1092.0"
+    },
+    {
+        "stop_id": "10923",
+        "parent_station": "1092.0"
+    },
+    {
+        "stop_id": "10771",
+        "parent_station": "1077.0"
+    },
+    {
+        "stop_id": "10772",
+        "parent_station": "1077.0"
+    },
+    {
+        "stop_id": "10773",
+        "parent_station": "1077.0"
+    },
+    {
+        "stop_id": "10774",
+        "parent_station": "1077.0"
+    },
+    {
+        "stop_id": "10775",
+        "parent_station": "1077.0"
+    },
+    {
+        "stop_id": "10776",
+        "parent_station": "1077.0"
+    },
+    {
+        "stop_id": "10777",
+        "parent_station": "1077.0"
+    },
+    {
+        "stop_id": "10931",
+        "parent_station": "1093.0"
+    },
+    {
+        "stop_id": "10932",
+        "parent_station": "1093.0"
+    },
+    {
+        "stop_id": "10933",
+        "parent_station": "1093.0"
+    },
+    {
+        "stop_id": "10934",
+        "parent_station": "1093.0"
+    },
+    {
+        "stop_id": "10842",
+        "parent_station": "1084.0"
+    },
+    {
+        "stop_id": "10841",
+        "parent_station": "1084.0"
+    },
+    {
+        "stop_id": "10843",
+        "parent_station": "1084.0"
+    },
+    {
+        "stop_id": "10852",
+        "parent_station": "1085.0"
+    },
+    {
+        "stop_id": "10851",
+        "parent_station": "1085.0"
+    },
+    {
+        "stop_id": "10853",
+        "parent_station": "1085.0"
+    },
+    {
+        "stop_id": "10881",
+        "parent_station": "1088.0"
+    },
+    {
+        "stop_id": "10882",
+        "parent_station": "1088.0"
+    },
+    {
+        "stop_id": "10883",
+        "parent_station": "1088.0"
+    },
+    {
+        "stop_id": "10884",
+        "parent_station": "1088.0"
+    },
+    {
+        "stop_id": "10871",
+        "parent_station": "1087.0"
+    },
+    {
+        "stop_id": "10872",
+        "parent_station": "1087.0"
+    },
+    {
+        "stop_id": "10874",
+        "parent_station": "1087.0"
+    },
+    {
+        "stop_id": "10875",
+        "parent_station": "1087.0"
+    },
+    {
+        "stop_id": "10876",
+        "parent_station": "1087.0"
+    },
+    {
+        "stop_id": "10801",
+        "parent_station": "1080.0"
+    },
+    {
+        "stop_id": "10802",
+        "parent_station": "1080.0"
+    },
+    {
+        "stop_id": "10803",
+        "parent_station": "1080.0"
+    },
+    {
+        "stop_id": "10804",
+        "parent_station": "1080.0"
+    },
+    {
+        "stop_id": "10902",
+        "parent_station": "1090.0"
+    },
+    {
+        "stop_id": "10903",
+        "parent_station": "1090.0"
+    },
+    {
+        "stop_id": "10904",
+        "parent_station": "1090.0"
+    },
+    {
+        "stop_id": "10905",
+        "parent_station": "1090.0"
+    },
+    {
+        "stop_id": "10907",
+        "parent_station": "1090.0"
+    },
+    {
+        "stop_id": "10834",
+        "parent_station": "1083.0"
+    },
+    {
+        "stop_id": "10831",
+        "parent_station": "1083.0"
+    },
+    {
+        "stop_id": "10833",
+        "parent_station": "1083.0"
+    },
+    {
+        "stop_id": "11362",
+        "parent_station": "1136.0"
+    },
+    {
+        "stop_id": "11364",
+        "parent_station": "1136.0"
+    },
+    {
+        "stop_id": "11366",
+        "parent_station": "1136.0"
+    },
+    {
+        "stop_id": "11411",
+        "parent_station": "1141.0"
+    },
+    {
+        "stop_id": "11413",
+        "parent_station": "1141.0"
+    },
+    {
+        "stop_id": "11416",
+        "parent_station": "1141.0"
+    },
+    {
+        "stop_id": "11601",
+        "parent_station": "1160.0"
+    },
+    {
+        "stop_id": "11602",
+        "parent_station": "1160.0"
+    },
+    {
+        "stop_id": "11631",
+        "parent_station": "1163.0"
+    },
+    {
+        "stop_id": "11341",
+        "parent_station": "1134.0"
+    },
+    {
+        "stop_id": "11342",
+        "parent_station": "1134.0"
+    },
+    {
+        "stop_id": "11343",
+        "parent_station": "1134.0"
+    },
+    {
+        "stop_id": "11345",
+        "parent_station": "1134.0"
+    },
+    {
+        "stop_id": "11381",
+        "parent_station": "1138.0"
+    },
+    {
+        "stop_id": "11382",
+        "parent_station": "1138.0"
+    },
+    {
+        "stop_id": "11385",
+        "parent_station": "1138.0"
+    },
+    {
+        "stop_id": "11387",
+        "parent_station": "1138.0"
+    },
+    {
+        "stop_id": "11372",
+        "parent_station": "1137.0"
+    },
+    {
+        "stop_id": "11373",
+        "parent_station": "1137.0"
+    },
+    {
+        "stop_id": "11374",
+        "parent_station": "1137.0"
+    },
+    {
+        "stop_id": "11401",
+        "parent_station": "1140.0"
+    },
+    {
+        "stop_id": "11402",
+        "parent_station": "1140.0"
+    },
+    {
+        "stop_id": "11403",
+        "parent_station": "1140.0"
+    },
+    {
+        "stop_id": "11405",
+        "parent_station": "1140.0"
+    },
+    {
+        "stop_id": "11351",
+        "parent_station": "1135.0"
+    },
+    {
+        "stop_id": "11352",
+        "parent_station": "1135.0"
+    },
+    {
+        "stop_id": "11611",
+        "parent_station": "1161.0"
+    },
+    {
+        "stop_id": "11613",
+        "parent_station": "1161.0"
+    },
+    {
+        "stop_id": "11615",
+        "parent_station": "1161.0"
+    },
+    {
+        "stop_id": "11393",
+        "parent_station": "1139.0"
+    },
+    {
+        "stop_id": "11394",
+        "parent_station": "1139.0"
+    },
+    {
+        "stop_id": "11396",
+        "parent_station": "1139.0"
+    },
+    {
+        "stop_id": "10941",
+        "parent_station": "1094.0"
+    },
+    {
+        "stop_id": "10944",
+        "parent_station": "1094.0"
+    },
+    {
+        "stop_id": "10992",
+        "parent_station": "1099.0"
+    },
+    {
+        "stop_id": "10994",
+        "parent_station": "1099.0"
+    },
+    {
+        "stop_id": "11145",
+        "parent_station": "1114.0"
+    },
+    {
+        "stop_id": "10961",
+        "parent_station": "1096.0"
+    },
+    {
+        "stop_id": "11001",
+        "parent_station": "1100.0"
+    },
+    {
+        "stop_id": "11002",
+        "parent_station": "1100.0"
+    },
+    {
+        "stop_id": "10971",
+        "parent_station": "1097.0"
+    },
+    {
+        "stop_id": "10973",
+        "parent_station": "1097.0"
+    },
+    {
+        "stop_id": "11212",
+        "parent_station": "1121.0"
+    },
+    {
+        "stop_id": "11291",
+        "parent_station": "1129.0"
+    },
+    {
+        "stop_id": "11021",
+        "parent_station": "1102.0"
+    },
+    {
+        "stop_id": "11022",
+        "parent_station": "1102.0"
+    },
+    {
+        "stop_id": "11023",
+        "parent_station": "1102.0"
+    },
+    {
+        "stop_id": "11024",
+        "parent_station": "1102.0"
+    },
+    {
+        "stop_id": "11025",
+        "parent_station": "1102.0"
+    },
+    {
+        "stop_id": "10951",
+        "parent_station": "1095.0"
+    },
+    {
+        "stop_id": "10953",
+        "parent_station": "1095.0"
+    },
+    {
+        "stop_id": "11011",
+        "parent_station": "1101.0"
+    },
+    {
+        "stop_id": "11012",
+        "parent_station": "1101.0"
+    },
+    {
+        "stop_id": "10611",
+        "parent_station": "1061.0"
+    },
+    {
+        "stop_id": "10612",
+        "parent_station": "1061.0"
+    },
+    {
+        "stop_id": "10614",
+        "parent_station": "1061.0"
+    },
+    {
+        "stop_id": "10616",
+        "parent_station": "1061.0"
+    },
+    {
+        "stop_id": "11292",
+        "parent_station": "1129.0"
+    },
+    {
+        "stop_id": "11293",
+        "parent_station": "1129.0"
+    },
+    {
+        "stop_id": "11294",
+        "parent_station": "1129.0"
+    },
+    {
+        "stop_id": "11251",
+        "parent_station": "1125.0"
+    },
+    {
+        "stop_id": "11252",
+        "parent_station": "1125.0"
+    },
+    {
+        "stop_id": "11253",
+        "parent_station": "1125.0"
+    },
+    {
+        "stop_id": "11254",
+        "parent_station": "1125.0"
+    },
+    {
+        "stop_id": "10661",
+        "parent_station": "1066.0"
+    },
+    {
+        "stop_id": "10663",
+        "parent_station": "1066.0"
+    },
+    {
+        "stop_id": "10662",
+        "parent_station": "1066.0"
+    },
+    {
+        "stop_id": "10666",
+        "parent_station": "1066.0"
+    },
+    {
+        "stop_id": "10711",
+        "parent_station": "1071.0"
+    },
+    {
+        "stop_id": "10715",
+        "parent_station": "1071.0"
+    },
+    {
+        "stop_id": "10714",
+        "parent_station": "1071.0"
+    },
+    {
+        "stop_id": "10716",
+        "parent_station": "1071.0"
+    },
+    {
+        "stop_id": "11091",
+        "parent_station": "1109.0"
+    },
+    {
+        "stop_id": "11092",
+        "parent_station": "1109.0"
+    },
+    {
+        "stop_id": "11093",
+        "parent_station": "1109.0"
+    },
+    {
+        "stop_id": "11095",
+        "parent_station": "1109.0"
+    },
+    {
+        "stop_id": "11096",
+        "parent_station": "1109.0"
+    },
+    {
+        "stop_id": "11131",
+        "parent_station": "1113.0"
+    },
+    {
+        "stop_id": "11133",
+        "parent_station": "1113.0"
+    },
+    {
+        "stop_id": "11134",
+        "parent_station": "1113.0"
+    },
+    {
+        "stop_id": "11101",
+        "parent_station": "1110.0"
+    },
+    {
+        "stop_id": "11103",
+        "parent_station": "1110.0"
+    },
+    {
+        "stop_id": "11104",
+        "parent_station": "1110.0"
+    },
+    {
+        "stop_id": "11102",
+        "parent_station": "1110.0"
+    },
+    {
+        "stop_id": "11162",
+        "parent_station": "1116.0"
+    },
+    {
+        "stop_id": "11163",
+        "parent_station": "1116.0"
+    },
+    {
+        "stop_id": "11164",
+        "parent_station": "1116.0"
+    },
+    {
+        "stop_id": "11165",
+        "parent_station": "1116.0"
+    },
+    {
+        "stop_id": "11166",
+        "parent_station": "1116.0"
+    },
+    {
+        "stop_id": "10731",
+        "parent_station": "1073.0"
+    },
+    {
+        "stop_id": "10732",
+        "parent_station": "1073.0"
+    },
+    {
+        "stop_id": "10734",
+        "parent_station": "1073.0"
+    },
+    {
+        "stop_id": "10671",
+        "parent_station": "1067.0"
+    },
+    {
+        "stop_id": "10673",
+        "parent_station": "1067.0"
+    },
+    {
+        "stop_id": "10675",
+        "parent_station": "1067.0"
+    },
+    {
+        "stop_id": "10674",
+        "parent_station": "1067.0"
+    },
+    {
+        "stop_id": "11175",
+        "parent_station": "1117.0"
+    },
+    {
+        "stop_id": "11176",
+        "parent_station": "1117.0"
+    },
+    {
+        "stop_id": "11177",
+        "parent_station": "1117.0"
+    },
+    {
+        "stop_id": "11122",
+        "parent_station": "1112.0"
+    },
+    {
+        "stop_id": "11123",
+        "parent_station": "1112.0"
+    },
+    {
+        "stop_id": "11124",
+        "parent_station": "1112.0"
+    },
+    {
+        "stop_id": "11111",
+        "parent_station": "1111.0"
+    },
+    {
+        "stop_id": "11113",
+        "parent_station": "1111.0"
+    },
+    {
+        "stop_id": "11112",
+        "parent_station": "1111.0"
+    },
+    {
+        "stop_id": "11153",
+        "parent_station": "1115.0"
+    },
+    {
+        "stop_id": "11158",
+        "parent_station": "1115.0"
+    },
+    {
+        "stop_id": "11152",
+        "parent_station": "1115.0"
+    },
+    {
+        "stop_id": "11154",
+        "parent_station": "1115.0"
+    },
+    {
+        "stop_id": "11156",
+        "parent_station": "1115.0"
+    },
+    {
+        "stop_id": "11181",
+        "parent_station": "1118.0"
+    },
+    {
+        "stop_id": "11182",
+        "parent_station": "1118.0"
+    },
+    {
+        "stop_id": "11184",
+        "parent_station": "1118.0"
+    },
+    {
+        "stop_id": "11185",
+        "parent_station": "1118.0"
+    },
+    {
+        "stop_id": "11186",
+        "parent_station": "1118.0"
+    },
+    {
+        "stop_id": "11187",
+        "parent_station": "1118.0"
+    },
+    {
+        "stop_id": "11188",
+        "parent_station": "1118.0"
+    },
+    {
+        "stop_id": "11180",
+        "parent_station": "1118.0"
+    },
+    {
+        "stop_id": "11033",
+        "parent_station": "1103.0"
+    },
+    {
+        "stop_id": "10701",
+        "parent_station": "1070.0"
+    },
+    {
+        "stop_id": "10703",
+        "parent_station": "1070.0"
+    },
+    {
+        "stop_id": "10753",
+        "parent_station": "1075.0"
+    },
+    {
+        "stop_id": "10755",
+        "parent_station": "1075.0"
+    },
+    {
+        "stop_id": "10752",
+        "parent_station": "1075.0"
+    },
+    {
+        "stop_id": "10754",
+        "parent_station": "1075.0"
+    },
+    {
+        "stop_id": "10756",
+        "parent_station": "1075.0"
+    },
+    {
+        "stop_id": "10741",
+        "parent_station": "1074.0"
+    },
+    {
+        "stop_id": "10742",
+        "parent_station": "1074.0"
+    },
+    {
+        "stop_id": "10744",
+        "parent_station": "1074.0"
+    },
+    {
+        "stop_id": "10761",
+        "parent_station": "1076.0"
+    },
+    {
+        "stop_id": "10762",
+        "parent_station": "1076.0"
+    },
+    {
+        "stop_id": "10763",
+        "parent_station": "1076.0"
+    },
+    {
+        "stop_id": "10683",
+        "parent_station": "1068.0"
+    },
+    {
+        "stop_id": "10684",
+        "parent_station": "1068.0"
+    },
+    {
+        "stop_id": "10685",
+        "parent_station": "1068.0"
+    },
+    {
+        "stop_id": "10687",
+        "parent_station": "1068.0"
+    },
+    {
+        "stop_id": "10688",
+        "parent_station": "1068.0"
+    },
+    {
+        "stop_id": "10689",
+        "parent_station": "1068.0"
+    },
+    {
+        "stop_id": "10681",
+        "parent_station": "1068.0"
+    },
+    {
+        "stop_id": "10682",
+        "parent_station": "1068.0"
+    },
+    {
+        "stop_id": "10631",
+        "parent_station": "1063.0"
+    },
+    {
+        "stop_id": "10632",
+        "parent_station": "1063.0"
+    },
+    {
+        "stop_id": "10634",
+        "parent_station": "1063.0"
+    },
+    {
+        "stop_id": "10621",
+        "parent_station": "1062.0"
+    },
+    {
+        "stop_id": "10623",
+        "parent_station": "1062.0"
+    },
+    {
+        "stop_id": "10622",
+        "parent_station": "1062.0"
+    },
+    {
+        "stop_id": "10624",
+        "parent_station": "1062.0"
+    },
+    {
+        "stop_id": "10651",
+        "parent_station": "1065.0"
+    },
+    {
+        "stop_id": "10653",
+        "parent_station": "1065.0"
+    },
+    {
+        "stop_id": "10652",
+        "parent_station": "1065.0"
+    },
+    {
+        "stop_id": "10603",
+        "parent_station": "1060.0"
+    },
+    {
+        "stop_id": "10605",
+        "parent_station": "1060.0"
+    },
+    {
+        "stop_id": "10607",
+        "parent_station": "1060.0"
+    },
+    {
+        "stop_id": "10602",
+        "parent_station": "1060.0"
+    },
+    {
+        "stop_id": "10591",
+        "parent_station": "1059.0"
+    },
+    {
+        "stop_id": "10592",
+        "parent_station": "1059.0"
+    },
+    {
+        "stop_id": "10593",
+        "parent_station": "1059.0"
+    },
+    {
+        "stop_id": "10594",
+        "parent_station": "1059.0"
+    },
+    {
+        "stop_id": "10721",
+        "parent_station": "1072.0"
+    },
+    {
+        "stop_id": "10724",
+        "parent_station": "1072.0"
+    },
+    {
+        "stop_id": "11311",
+        "parent_station": "1131.0"
+    },
+    {
+        "stop_id": "11241",
+        "parent_station": "1124.0"
+    },
+    {
+        "stop_id": "11242",
+        "parent_station": "1124.0"
+    },
+    {
+        "stop_id": "11243",
+        "parent_station": "1124.0"
+    },
+    {
+        "stop_id": "11244",
+        "parent_station": "1124.0"
+    },
+    {
+        "stop_id": "11331",
+        "parent_station": "1133.0"
+    },
+    {
+        "stop_id": "11221",
+        "parent_station": "1122.0"
+    },
+    {
+        "stop_id": "11223",
+        "parent_station": "1122.0"
+    },
+    {
+        "stop_id": "11261",
+        "parent_station": "1126.0"
+    },
+    {
+        "stop_id": "11262",
+        "parent_station": "1126.0"
+    },
+    {
+        "stop_id": "11263",
+        "parent_station": "1126.0"
+    },
+    {
+        "stop_id": "11321",
+        "parent_station": "1132.0"
+    }
+]
