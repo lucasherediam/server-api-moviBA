@@ -60,6 +60,11 @@ const BusStop = (prisma: PrismaClient) => {
             select: {
               route_id: true,
               route_short_name: true,
+              agency: {
+                select: {
+                agency_color: true,
+                },
+              },
               trips: {
                 select: {
                   trip_headsign: true,
@@ -77,6 +82,7 @@ const BusStop = (prisma: PrismaClient) => {
         const result = routes.map((route) => ({
           route_id: route.route.route_id,
           route_short_name: route.route.route_short_name,
+          agency_color: route.route.agency.agency_color,
           trip_headsigns: Array.from(
             new Set(route.route.trips.map((trip) => trip.trip_headsign))
           ),

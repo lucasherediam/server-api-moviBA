@@ -8,10 +8,10 @@ datasource db {
 }
 
 model BusAgency {
-    agency_id   String @id
-    agency_name String
-
-    routes BusRoute[]
+    agency_id    String     @id
+    agency_name  String
+    agency_color String?
+    routes       BusRoute[]
 }
 
 model BusRoute {
@@ -90,7 +90,7 @@ model StationParentStation {
 }
 
 model User {
-    user_id String 
+    user_id String
     stop_id String
 
     stop BusStop @relation(fields: [stop_id], references: [stop_id])
