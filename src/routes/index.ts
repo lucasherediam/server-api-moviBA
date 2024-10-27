@@ -1,6 +1,7 @@
 import { type PrismaClient } from "@prisma/client"
 import BusStop from "./busStop.route"
 import BusRoute from "./busRoute.route"
+import SubwayStation from "./subwayStation.route"
 import { type Express } from "express"
 
 const addRoutes = (app: Express, prisma: PrismaClient) => {
@@ -12,6 +13,7 @@ const addRoutes = (app: Express, prisma: PrismaClient) => {
     // Acá van las custom routers
     app.use('/api/bus-stops', BusStop(prisma))
     app.use('/api/bus-route', BusRoute(prisma))
+    app.use('/api/subway-stations', SubwayStation(prisma))
 }
 
 export default addRoutes
