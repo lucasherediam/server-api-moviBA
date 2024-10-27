@@ -9,8 +9,9 @@ async function cleanDatabase() {
         // await prisma.trip.deleteMany();
         // await prisma.shapePoint.deleteMany();
         // await prisma.shape.deleteMany();
-        await prisma.busRoute.deleteMany();
+        // await prisma.busRoute.deleteMany();
         // await prisma.agency.deleteMany();
+        await prisma.stationParentStation.deleteMany();
 
         console.log('Base de datos limpiada exitosamente.');
     } catch (error) {
