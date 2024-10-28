@@ -11,13 +11,15 @@ model BusAgency {
     agency_id    String     @id
     agency_name  String
     agency_color String?
+    agency_type  String?
     routes       BusRoute[]
 }
 
 model BusRoute {
-    route_id         String @id
+    route_id         String  @id
     agency_id        String
     route_short_name String
+    route_desc       String?
 
     agency BusAgency      @relation(fields: [agency_id], references: [agency_id])
     trips  BusTrip[]

@@ -119,7 +119,7 @@ async function seedRoutes() {
 
         // Leer el archivo de rutas antes de procesarlo
         await importCSV('./assets/routes.txt', (row) => {
-            // Validar existencia de agency_id y route_id
+            // Validar existencia de agency_id, route_id y la nueva columna route_desc
             if (row.route_id && row.route_short_name) {
                 // Limpiar y agregar la ruta si no es duplicada
                 if (!routeIds.has(row.route_id)) {
@@ -128,6 +128,7 @@ async function seedRoutes() {
                         route_id: row.route_id,
                         agency_id: row.agency_id,
                         route_short_name: row.route_short_name,
+                        route_desc: row.route_desc || null, // Agregar la nueva columna
                     });
 
                     // Insertar lote si alcanza el tamaño especificado
@@ -156,6 +157,7 @@ async function seedRoutes() {
         console.error("Error al importar 'BusRoute':", error);
     }
 }
+
 
 // Función de seed para la tabla 'BusTrip' con validación más estricta
 async function seedTrips() {
@@ -343,6 +345,77 @@ async function seedStationParentStation(filePath) {
     }
 }
 
+// Función de seed para actualizar 'route_desc' en la tabla 'BusRoute'
+async function updateRouteDescriptions() {
+    try {
+        console.log("Actualizando 'route_desc' en la tabla 'BusRoute'...");
+        const batchSize = 50;
+        let batch = [];
+
+        // Leer el archivo de rutas antes de procesarlo
+        await importCSV('./assets/routes.txt', (row) => {
+            // Validar existencia de route_id y route_desc
+            if (row.route_id && row.route_desc) {
+                batch.push({
+                    route_id: row.route_id,
+                    route_desc: row.route_desc,
+                });
+
+                // Procesar el lote si alcanza el tamaño especificado
+                if (batch.length >= batchSize) {
+                    updateBatch(batch);
+                    batch = [];
+                }
+            } else {
+                console.warn(`Datos incompletos para route_id: ${row.route_id}, omitiendo esta ruta.`);
+            }
+        });
+
+        // Procesar cualquier remanente del lote
+        if (batch.length > 0) {
+            updateBatch(batch);
+        }
+
+        console.log("Actualización de 'route_desc' completada.");
+    } catch (error) {
+        console.error("Error al actualizar 'route_desc':", error);
+    }
+}
+
+// Función para actualizar el batch en la base de datos
+async function updateBatch(batch) {
+    try {
+        for (const route of batch) {
+            // Actualizar solo la columna 'route_desc' del registro existente
+            await prisma.busRoute.update({
+                where: { route_id: route.route_id },
+                data: { route_desc: route.route_desc },
+            });
+        }
+        console.log(`Actualizados ${batch.length} registros.`);
+    } catch (error) {
+        console.error('Error al actualizar el batch:', error);
+    }
+}
+
+// Función para actualizar el campo 'agency_type' en la tabla 'BusAgency'
+async function updateAgencyType() {
+    try {
+        console.log("Actualizando 'agency_type' en la tabla 'BusAgency'...");
+
+        // Actualizar todas las filas para que agency_type sea 'bus'
+        await prisma.busAgency.updateMany({
+            data: {
+                agency_type: 'bus',
+            },
+        });
+
+        console.log("Actualización de 'agency_type' completada.");
+    } catch (error) {
+        console.error("Error al actualizar 'agency_type':", error);
+    }
+}
+
 // Ejecutar el seed tabla por tabla usando transacciones
 (async function main() {
     await connectPrisma();
@@ -353,7 +426,9 @@ async function seedStationParentStation(filePath) {
     // await seedTrips();
     // await seedBusStopRoute('./assets/routes_stops.json');
     // await seedSubwayStations('./assets/subway_stations.json');
-    await seedStationParentStation('./assets/station_parent_station.json');
+    // await seedStationParentStation('./assets/station_parent_station.json');
+    // await updateRouteDescriptions();
+    await updateAgencyType();
     console.log("Proceso de seed completado.");
     await prisma.$disconnect();
 })();
