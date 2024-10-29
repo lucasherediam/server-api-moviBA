@@ -57,6 +57,29 @@ const SubwayStation = (prisma: PrismaClient) => {
     }
   });
 
+  // Endpoint para buscar una estacion de subte por su station_id
+  router.get("/:station_id/color", async (req, res) => {
+    const { station_id } = req.params;
+
+    try {
+      const subwayStation = await prisma.subwayStation.findUnique({
+        where: { station_id }
+      });
+
+      const color = await prisma.subwayColor.findUnique({
+        where: { route_short_name: subwayStation?.route_short_name }
+      })
+
+      if (color) {
+        res.json(color);
+      } else {
+        res.status(404).json({ error: "Color de la linea de la estacion de subte no encontrado" });
+      }
+    } catch (error) {
+      res.status(500).json({ error: "Error al obtener el color de la linea la estacion de subte" });
+    }
+  });
+
   router.get("/:station_id/arrival", async (req, res) => {
     const { station_id } = req.params;
 
