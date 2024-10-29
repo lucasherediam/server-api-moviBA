@@ -89,6 +89,16 @@ model StationParentStation {
     @@id([station_id, parent_station])
 }
 
+model SubwayTrip {
+    trip_id       String @id
+    trip_headsign String
+}
+
+model SubwayColor {
+    route_short_name    String @id
+    color               String
+}
+
 model User {
     user_id String
     stop_id String
