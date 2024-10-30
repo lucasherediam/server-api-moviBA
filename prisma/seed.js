@@ -484,11 +484,11 @@ async function seedSubwayColor(filePath) {
     // await seedTrips();
     // await seedBusStopRoute('./assets/routes_stops.json');
     // await seedSubwayStations('./assets/subway_stations.json');
-    // // await seedStationParentStation('./assets/station_parent_station.json');
+    // await seedStationParentStation('./assets/station_parent_station.json');
     // await updateRouteDescriptions();
-    // await updateAgencyType();
+    await updateAgencyType();
     // await seedSubwayTrip('./assets/subway_trips.json');
-    await seedSubwayColor('./assets/subway_colors.json');
+    // await seedSubwayColor('./assets/subway_colors.json');
     console.log("Proceso de seed completado.");
     await prisma.$disconnect();
 })();
