@@ -1,0 +1,30 @@
+[
+    {
+        "route_short_name": "LineaA",
+        "color": "#09B3DE"
+    },
+    {
+        "route_short_name": "LineaB",
+        "color": "#EF4236"
+    },
+    {
+        "route_short_name": "LineaC",
+        "color": "#0C6FB4"
+    },
+    {
+        "route_short_name": "LineaD",
+        "color": "#00836A"
+    },
+    {
+        "route_short_name": "LineaE",
+        "color": "#7B2E90"
+    },
+    {
+        "route_short_name": "LineaH",
+        "color": "#FFD105"
+    },
+    {
+        "route_short_name": "Premetro",
+        "color": "#FDBA31"
+    }
+]

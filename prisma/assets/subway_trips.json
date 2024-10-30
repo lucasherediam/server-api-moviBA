@@ -1,0 +1,194 @@
+[
+    {
+        "trip_id": "C11",
+        "trip_headsign": "Retiro"
+    },
+    {
+        "trip_id": "C12",
+        "trip_headsign": "Retiro"
+    },
+    {
+        "trip_id": "C13",
+        "trip_headsign": "Retiro"
+    },
+    {
+        "trip_id": "C01",
+        "trip_headsign": "Constitucion"
+    },
+    {
+        "trip_id": "C02",
+        "trip_headsign": "Constitucion"
+    },
+    {
+        "trip_id": "C03",
+        "trip_headsign": "Constitucion"
+    },
+    {
+        "trip_id": "A11",
+        "trip_headsign": "Plaza de Mayo"
+    },
+    {
+        "trip_id": "A12",
+        "trip_headsign": "Plaza de Mayo"
+    },
+    {
+        "trip_id": "A13",
+        "trip_headsign": "Plaza de Mayo"
+    },
+    {
+        "trip_id": "A01",
+        "trip_headsign": "San Pedrito"
+    },
+    {
+        "trip_id": "A02",
+        "trip_headsign": "San Pedrito"
+    },
+    {
+        "trip_id": "A03",
+        "trip_headsign": "San Pedrito"
+    },
+    {
+        "trip_id": "B11",
+        "trip_headsign": "Leandro N. Alem"
+    },
+    {
+        "trip_id": "B12",
+        "trip_headsign": "Leandro N. Alem"
+    },
+    {
+        "trip_id": "B13",
+        "trip_headsign": "Leandro N. Alem"
+    },
+    {
+        "trip_id": "B01",
+        "trip_headsign": "Juan Manuel de Rosas"
+    },
+    {
+        "trip_id": "B02",
+        "trip_headsign": "Juan Manuel de Rosas"
+    },
+    {
+        "trip_id": "B03",
+        "trip_headsign": "Juan Manuel de Rosas"
+    },
+    {
+        "trip_id": "D11",
+        "trip_headsign": "Catedral"
+    },
+    {
+        "trip_id": "D12",
+        "trip_headsign": "Catedral"
+    },
+    {
+        "trip_id": "D13",
+        "trip_headsign": "Catedral"
+    },
+    {
+        "trip_id": "D01",
+        "trip_headsign": "Congreso de Tucuman"
+    },
+    {
+        "trip_id": "D02",
+        "trip_headsign": "Congreso de Tucuman"
+    },
+    {
+        "trip_id": "D03",
+        "trip_headsign": "Congreso de Tucuman"
+    },
+    {
+        "trip_id": "E11",
+        "trip_headsign": "Retiro"
+    },
+    {
+        "trip_id": "E12",
+        "trip_headsign": "Retiro"
+    },
+    {
+        "trip_id": "E13",
+        "trip_headsign": "Retiro"
+    },
+    {
+        "trip_id": "E01",
+        "trip_headsign": "Plaza de los Virreyes"
+    },
+    {
+        "trip_id": "H11",
+        "trip_headsign": "Facultad de Derecho"
+    },
+    {
+        "trip_id": "H12",
+        "trip_headsign": "Facultad de Derecho"
+    },
+    {
+        "trip_id": "H13",
+        "trip_headsign": "Facultad de Derecho"
+    },
+    {
+        "trip_id": "H01",
+        "trip_headsign": "Hospitales"
+    },
+    {
+        "trip_id": "H02",
+        "trip_headsign": "Hospitales"
+    },
+    {
+        "trip_id": "H03",
+        "trip_headsign": "Hospitales"
+    },
+    {
+        "trip_id": "E02",
+        "trip_headsign": "Plaza de los Virreyes"
+    },
+    {
+        "trip_id": "E03",
+        "trip_headsign": "Plaza de los Virreyes"
+    },
+    {
+        "trip_id": "P1-01",
+        "trip_headsign": "Centro Civico"
+    },
+    {
+        "trip_id": "P1-02",
+        "trip_headsign": "Centro Civico"
+    },
+    {
+        "trip_id": "P1-03",
+        "trip_headsign": "Centro Civico"
+    },
+    {
+        "trip_id": "P1-11",
+        "trip_headsign": "Saguier"
+    },
+    {
+        "trip_id": "P1-12",
+        "trip_headsign": "Saguier"
+    },
+    {
+        "trip_id": "P1-13",
+        "trip_headsign": "Saguier"
+    },
+    {
+        "trip_id": "P2-01",
+        "trip_headsign": "General Savio"
+    },
+    {
+        "trip_id": "P2-02",
+        "trip_headsign": "General Savio"
+    },
+    {
+        "trip_id": "P2-03",
+        "trip_headsign": "General Savio"
+    },
+    {
+        "trip_id": "P2-11",
+        "trip_headsign": "Saguier"
+    },
+    {
+        "trip_id": "P2-12",
+        "trip_headsign": "Saguier"
+    },
+    {
+        "trip_id": "P2-13",
+        "trip_headsign": "Saguier"
+    }
+]

@@ -416,6 +416,64 @@ async function updateAgencyType() {
     }
 }
 
+async function seedSubwayTrip(filePath) {
+    try {
+        const data = fs.readFileSync(filePath, 'utf8');
+        const trips = JSON.parse(data);
+        const batchSize = 50;
+        let batch = [];
+
+        for (const trip of trips) {
+            batch.push({
+                trip_id: trip.trip_id,
+                trip_headsign: trip.trip_headsign,
+            });
+
+            if (batch.length >= batchSize) {
+                await safeCreateMany(prisma.subwayTrip, batch, batchSize);
+                batch = [];
+            }
+        }
+
+        if (batch.length > 0) {
+            await safeCreateMany(prisma.subwayTrip, batch, batchSize);
+        }
+
+        console.log("Importación de estaciones completada desde JSON.");
+    } catch (error) {
+        console.error("Error al importar paradas desde JSON:", error);
+    }
+}
+
+async function seedSubwayColor(filePath) {
+    try {
+        const data = fs.readFileSync(filePath, 'utf8');
+        const colors = JSON.parse(data);
+        const batchSize = 50;
+        let batch = [];
+
+        for (const color of colors) {
+            batch.push({
+                route_short_name: color.route_short_name,
+                color: color.color,
+            });
+
+            if (batch.length >= batchSize) {
+                await safeCreateMany(prisma.subwayColor, batch, batchSize);
+                batch = [];
+            }
+        }
+
+        if (batch.length > 0) {
+            await safeCreateMany(prisma.subwayColor, batch, batchSize);
+        }
+
+        console.log("Importación de estaciones completada desde JSON.");
+    } catch (error) {
+        console.error("Error al importar paradas desde JSON:", error);
+    }
+}
+
 // Ejecutar el seed tabla por tabla usando transacciones
 (async function main() {
     await connectPrisma();
@@ -429,6 +487,8 @@ async function updateAgencyType() {
     // await seedStationParentStation('./assets/station_parent_station.json');
     // await updateRouteDescriptions();
     await updateAgencyType();
+    // await seedSubwayTrip('./assets/subway_trips.json');
+    // await seedSubwayColor('./assets/subway_colors.json');
     console.log("Proceso de seed completado.");
     await prisma.$disconnect();
 })();
