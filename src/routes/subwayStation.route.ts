@@ -38,24 +38,35 @@ const SubwayStation = (prisma: PrismaClient) => {
     }
   });
 
-  // Endpoint para buscar una estacion de subte por su station_id
-  router.get("/:station_id", async (req, res) => {
-    const { station_id } = req.params;
+// Endpoint para buscar una estacion de subte por su station_id
+router.get("/:station_id", async (req, res) => {
+  const { station_id } = req.params;
 
-    try {
-      const subwayStation = await prisma.subwayStation.findUnique({
-        where: { station_id }
-      });
-
-          if (subwayStation) {
-        res.json(subwayStation);
-      } else {
-        res.status(404).json({ error: "Estacion de subte no encontrada" });
+  try {
+    const subwayStation = await prisma.subwayStation.findUnique({
+      where: { station_id },
+      include: {
+        color: {
+          select: {
+            color: true
+          }
+        }
       }
-    } catch (error) {
-      res.status(500).json({ error: "Error al obtener la estacion de subte" });
+    });
+
+    if (subwayStation) {
+      res.json({
+        ...subwayStation,
+        color: subwayStation.color?.color || null
+      });
+    } else {
+      res.status(404).json({ error: "Estacion de subte no encontrada" });
     }
-  });
+  } catch (error) {
+    res.status(500).json({ error: "Error al obtener la estacion de subte" });
+  }
+});
+
 
   // Endpoint para buscar una estacion de subte por su station_id
   router.get("/:station_id/color", async (req, res) => {
