@@ -82,6 +82,8 @@ model SubwayStation {
     latitude         Float
     longitude        Float
     route_short_name String
+    
+    color            SubwayColor? @relation(fields: [route_short_name], references: [route_short_name])
 }
 
 model StationParentStation {
@@ -99,6 +101,8 @@ model SubwayTrip {
 model SubwayColor {
     route_short_name    String @id
     color               String
+
+    SubwayStation SubwayStation[]
 }
 
 model User {
