@@ -108,7 +108,7 @@ router.get("/:station_id", async (req, res) => {
         
         return {
             time: arrivalTime.toLocaleString(), // Formato legible
-            remainingTime: `${minutes} minutes and ${seconds} seconds`
+            remainingTime: minutes < 0 || seconds < 0 ? 'No hay trenes aproximandose' : `${minutes} minutes and ${seconds} seconds`
         };
     };
 
