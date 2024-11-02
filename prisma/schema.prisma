@@ -98,6 +98,16 @@ model SubwayTrip {
     trip_headsign String
 }
 
+model SubwayShapePoint {
+    route_short_name    String
+    shape_pt_lat        Float
+    shape_pt_lon        Float
+    shape_pt_sequence   Int
+    shape_dist_traveled Float?
+
+    @@id([route_short_name, shape_pt_sequence])
+}
+
 model SubwayColor {
     route_short_name    String @id
     color               String

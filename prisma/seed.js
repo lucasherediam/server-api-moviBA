@@ -474,6 +474,39 @@ async function seedSubwayColor(filePath) {
     }
 }
 
+// Función de seed para la tabla 'Shape' y 'ShapePoint'
+async function seedSubwayShapes(filePath) {
+    try {
+        const data = fs.readFileSync(filePath, 'utf8');
+        const shapePoints = JSON.parse(data);
+        const batchSize = 50;
+        let batch = [];
+
+        for (const shapePoint of shapePoints) {
+            batch.push({
+                route_short_name: shapePoint.route_short_name,
+                shape_pt_lat: parseFloat(shapePoint.shape_pt_lat),
+                shape_pt_lon: parseFloat(shapePoint.shape_pt_lon),
+                shape_pt_sequence: parseInt(shapePoint.shape_pt_sequence),
+                shape_dist_traveled: parseFloat(shapePoint.shape_dist_traveled),
+            });
+
+            if (batch.length >= batchSize) {
+                await safeCreateMany(prisma.subwayShapePoint, batch, batchSize);
+                batch = [];
+            }
+        }
+
+        if (batch.length > 0) {
+            await safeCreateMany(prisma.subwayShapePoint, batch, batchSize);
+        }
+
+        console.log("Importación de shape points completada desde JSON.");
+    } catch (error) {
+        console.error("Error al importar shape points desde JSON:", error);
+    }
+}
+
 // Ejecutar el seed tabla por tabla usando transacciones
 (async function main() {
     await connectPrisma();
@@ -486,9 +519,10 @@ async function seedSubwayColor(filePath) {
     // await seedSubwayStations('./assets/subway_stations.json');
     // await seedStationParentStation('./assets/station_parent_station.json');
     // await updateRouteDescriptions();
-    await updateAgencyType();
+    // await updateAgencyType();
     // await seedSubwayTrip('./assets/subway_trips.json');
     // await seedSubwayColor('./assets/subway_colors.json');
+    await seedSubwayShapes('./assets/subway_shapes.json');
     console.log("Proceso de seed completado.");
     await prisma.$disconnect();
 })();
