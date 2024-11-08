@@ -9,36 +9,53 @@ const UserRouter = (prisma: PrismaClient) => {
         const { userId } = req.params;
 
         try {
-            // Simulación de recuperación de datos de favoritos con console.log
-            console.log(`Obteniendo favoritos del usuario ${userId}`);
+            // Consulta de Prisma para obtener las rutas favoritas del usuario
+            const favoriteLines = await prisma.userFavoriteRoute.findMany({
+                where: {
+                    user_id: userId,
+                },
+                select: {
+                    route: {
+                        select: {
+                            route_id: true,
+                            route_short_name: true,
+                            route_desc: true,
+                        },
+                    },
+                },
+            });
 
-            // Aquí iría la lógica para obtener favoritos con Prisma más adelante
-            // Por ahora, devolver una lista simulada
-            const favoriteLines = ['101', '102', '103']; // Ejemplo de datos simulados
-
-            res.status(200).json({ favorites: favoriteLines });
+            // Formatear la respuesta para enviar solo la información relevante
+            const favorites = favoriteLines.map(fav => ({
+                route_id: fav.route.route_id,
+                route_short_name: fav.route.route_short_name,
+                route_desc: fav.route.route_desc,
+            }));
+            console.log(`Usuario ${userId} obtuvo sus líneas favoritas:`, favorites);
+            res.status(200).json({ favorites });
         } catch (error) {
             console.error('Error al obtener favoritos:', error);
             res.status(500).json({ message: 'Error al obtener las líneas favoritas' });
         }
     });
 
+
     // Endpoint para agregar una línea a favoritos
     router.post('/:userId/favorite', async (req, res) => {
         const { userId } = req.params;
-        const { lineNumber } = req.body;
-
+        const { lineRouteId } = req.body;
+        console.log(`Usuario ${userId} marcó la línea ${lineRouteId} como favorita`);
         try {
-            // Imprime el log de agregar línea a favoritos
-            console.log(`Usuario ${userId} agregó la línea ${lineNumber} a favoritos`);
+            await prisma.userFavoriteRoute.create({
+                data: {
+                    user_id: userId,
+                    route_id: lineRouteId,
+                },
+            });
 
-            // Respuesta de éxito
             res.status(200).json({ message: 'Línea marcada como favorita exitosamente' });
         } catch (error) {
-            // Imprime el error en la consola
             console.error('Error al marcar como favorito:', error);
-
-            // Respuesta de error
             res.status(500).json({ message: 'Error al marcar la línea como favorita' });
         }
     });
@@ -46,11 +63,11 @@ const UserRouter = (prisma: PrismaClient) => {
     // Endpoint para eliminar una línea de favoritos
     router.delete('/:userId/favorite', async (req, res) => {
         const { userId } = req.params;
-        const { lineNumber } = req.body;
+        const { lineRouteId } = req.body;
 
         try {
             // Imprime el log de eliminar línea de favoritos
-            console.log(`Usuario ${userId} eliminó la línea ${lineNumber} de favoritos`);
+            console.log(`Usuario ${userId} eliminó la el routeId ${lineRouteId} de favoritos`);
 
             // Respuesta de éxito
             res.status(200).json({ message: 'Línea eliminada de favoritos exitosamente' });
