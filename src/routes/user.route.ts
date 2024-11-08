@@ -4,12 +4,11 @@ import { PrismaClient } from '@prisma/client';
 const UserRouter = (prisma: PrismaClient) => {
     const router = Router();
 
-    // Endpoint para obtener líneas favoritas
+    // Endpoint para obtener ramales favoritos
     router.get('/:userId/favorites', async (req, res) => {
         const { userId } = req.params;
 
         try {
-            // Consulta de Prisma para obtener las rutas favoritas del usuario
             const favoriteLines = await prisma.userFavoriteRoute.findMany({
                 where: {
                     user_id: userId,
@@ -25,8 +24,7 @@ const UserRouter = (prisma: PrismaClient) => {
                 },
             });
 
-            // Formatear la respuesta para enviar solo la información relevante
-            const favorites = favoriteLines.map(fav => ({
+            const favorites = favoriteLines.map((fav) => ({
                 route_id: fav.route.route_id,
                 route_short_name: fav.route.route_short_name,
                 route_desc: fav.route.route_desc,
@@ -39,8 +37,7 @@ const UserRouter = (prisma: PrismaClient) => {
         }
     });
 
-
-    // Endpoint para agregar una línea a favoritos
+    // Endpoint para agregar un ramal a favoritos
     router.post('/:userId/favorite', async (req, res) => {
         const { userId } = req.params;
         const { lineRouteId } = req.body;
@@ -60,22 +57,24 @@ const UserRouter = (prisma: PrismaClient) => {
         }
     });
 
-    // Endpoint para eliminar una línea de favoritos
+    // Endpoint para eliminar un ramal de favoritos
     router.delete('/:userId/favorite', async (req, res) => {
         const { userId } = req.params;
         const { lineRouteId } = req.body;
 
         try {
-            // Imprime el log de eliminar línea de favoritos
-            console.log(`Usuario ${userId} eliminó la el routeId ${lineRouteId} de favoritos`);
+            // Eliminar el favorito correspondiente en la base de datos
+            await prisma.userFavoriteRoute.deleteMany({
+                where: {
+                    user_id: userId,
+                    route_id: lineRouteId,
+                },
+            });
 
-            // Respuesta de éxito
+            console.log(`Usuario ${userId} eliminó el routeId ${lineRouteId} de favoritos`);
             res.status(200).json({ message: 'Línea eliminada de favoritos exitosamente' });
         } catch (error) {
-            // Imprime el error en la consola
             console.error('Error al eliminar de favoritos:', error);
-
-            // Respuesta de error
             res.status(500).json({ message: 'Error al eliminar la línea de favoritos' });
         }
     });
