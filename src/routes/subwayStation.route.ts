@@ -105,10 +105,12 @@ router.get("/:station_id", async (req, res) => {
         const timeDifference = (arrivalTime.getTime() - currentTime.getTime()) / 1000; // Diferencia en segundos
         const minutes = Math.floor(timeDifference / 60);
         const seconds = Math.floor(timeDifference % 60);
+
+        const message = minutes < 1 ? '1 min' : `${minutes} mins`;
         
         return {
             time: arrivalTime.toLocaleString(), // Formato legible
-            remainingTime: minutes < 0 || seconds < 0 ? 'No hay trenes aproximandose' : `${minutes} minutes and ${seconds} seconds`
+            remainingTime: minutes < 0 || seconds < 0 ? 'No hay trenes aproximandose' : message
         };
     };
 
