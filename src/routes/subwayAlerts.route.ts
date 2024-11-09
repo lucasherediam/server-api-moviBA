@@ -14,6 +14,18 @@ type Time = {
 const SubwayAlerts = (prisma: PrismaClient) => {
   const router = Router();
   router.get("/", async (req, res) => {
+
+    const routeShortNames = {
+        'LineaA': 'Linea A',
+        'LineaB': 'Linea B',
+        'LineaC': 'Linea C',
+        'LineaD': 'Linea D',
+        'LineaE': 'Linea E',
+        'LineaH': 'Linea H',
+        'PM-Civico': 'PM Centro Civico', 
+        "PM-Savio": 'PM General Savio',
+
+    };
     try {
       console.log('alertas');
       const response = await fetch(`https://apitransporte.buenosaires.gob.ar/subtes/serviceAlerts?client_id=${client_id}&client_secret=${client_secret}&json=1`);
@@ -25,8 +37,10 @@ const SubwayAlerts = (prisma: PrismaClient) => {
         const data = await response.json();
         console.log(data);
         const alerts = data.entity.map((element: { alert: { informed_entity: { route_id: any; }[]; header_text: { translation: { text: any; }[]; }; }; }) => {
+            const routeId = element.alert.informed_entity[0].route_id as keyof typeof routeShortNames;
             return {
-                route_short_name: element.alert.informed_entity[0].route_id,
+                route_id: routeId,
+                route_short_name: routeShortNames[routeId],
                 message: element.alert.header_text.translation[0].text
               }
             });
