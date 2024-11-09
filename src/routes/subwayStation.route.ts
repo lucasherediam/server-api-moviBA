@@ -161,7 +161,6 @@ router.get("/:station_id", async (req, res) => {
     }
   });
 
-
   return router;
 };
 
