@@ -118,12 +118,18 @@ const Route = (prisma: PrismaClient) => {
       const data = await response.json();
       if (data) {
         // Filtrar los colectivos que tienen velocidad mayor a 0
-        const filteredData = data.filter((vehicle: { speed: number; }) => vehicle.speed > 0).map((vehicle: { route_id: string; latitude: number; longitude: number; speed: number; }) => ({
-            route_id: vehicle.route_id,
-            latitude: vehicle.latitude,
-            longitude: vehicle.longitude,
-            speed: vehicle.speed,
-            }));
+        const filteredData = data
+  .filter(
+    (vehicle: { speed: number }) =>
+      vehicle.speed > 0 && !Number.isInteger(vehicle.speed) // Filtra solo si la velocidad es un número decimal
+  )
+  .map((vehicle: { route_id: string; latitude: number; longitude: number; speed: number }) => ({
+    route_id: vehicle.route_id,
+    latitude: vehicle.latitude,
+    longitude: vehicle.longitude,
+    speed: vehicle.speed,
+  }));
+
         console.log("data backend (filtrada)", filteredData);
         res.json(filteredData);
       } else {
