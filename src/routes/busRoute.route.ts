@@ -1,10 +1,16 @@
 import { PrismaClient } from "@prisma/client";
 import { Router } from "express";
+import { Request, Response } from 'express';
+import dotenv from 'dotenv';
+dotenv.config();
+
+const client_id = process.env.CLIENT_ID || '';
+const client_secret = process.env.CLIENT_SECRET || '';
 
 const Route = (prisma: PrismaClient) => {
   const router = Router();
 
-  // Nuevo Endpoint: Obtener el shape (trayectoria) de una línea específica
+  // Obtener el shape (trayectoria) de una línea específica
   router.get("/:route_id/shape", async (req, res) => {
     const { route_id } = req.params;
 
@@ -51,7 +57,7 @@ const Route = (prisma: PrismaClient) => {
   });
 
   // Endpoint para obtener las paradas de una ruta específica
-router.get('/:route_id/stops', async (req, res) => {
+  router.get('/:route_id/stops', async (req, res) => {
     const { route_id } = req.params;
 
     try {
@@ -76,7 +82,7 @@ router.get('/:route_id/stops', async (req, res) => {
           },
         },
       });
-      console.log(stops);
+    //   console.log(stops);
       if (stops.length === 0) {
         res.status(404).json({ error: 'No se encontraron paradas para la ruta especificada' });
       }
@@ -93,6 +99,38 @@ router.get('/:route_id/stops', async (req, res) => {
     } catch (error) {
       console.error('Error al obtener las paradas de la ruta:', error);
       res.status(500).json({ error: 'Error al obtener las paradas de la ruta' });
+    }
+  });
+
+  router.get("/:route_id/position", async (req, res) => {
+    const { route_id } = req.params;
+    try {
+      console.log("route_id", route_id);
+      const response = await fetch(
+        `https://apitransporte.buenosaires.gob.ar/colectivos/vehiclePositionsSimple?client_id=${client_id}&client_secret=${client_secret}&route_id=${route_id}`
+      );
+
+      if (!response.ok) {
+        console.error('Error en la respuesta de la API:', response.status, response.statusText);
+        return;
+      }
+
+      const data = await response.json();
+      if (data) {
+        // Filtrar los colectivos que tienen velocidad mayor a 0
+        const filteredData = data.filter((vehicle: { speed: number; }) => vehicle.speed > 0).map((vehicle: { route_id: string; latitude: number; longitude: number; speed: number; }) => ({
+            route_id: vehicle.route_id,
+            latitude: vehicle.latitude,
+            longitude: vehicle.longitude,
+            speed: vehicle.speed,
+            }));
+        console.log("data backend (filtrada)", filteredData);
+        res.json(filteredData);
+      } else {
+        res.status(404).json({ error: "Tiempos de llegada no encontrados" });
+      }
+    } catch (error) {
+      res.status(500).json({ error: "Error al obtener el tiempo de llegada del tren" });
     }
   });
 
