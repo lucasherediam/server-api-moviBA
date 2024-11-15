@@ -11,7 +11,8 @@ const BusAgency = (prisma: PrismaClient) => {
         select: {
           agency_id: true,
           agency_name: true,
-          agency_color: true, // Ahora está en el lugar correcto
+          agency_color: true,
+          agency_type: true,
           routes: {
             select: {
               route_id: true,

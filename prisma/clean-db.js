@@ -11,8 +11,8 @@ async function cleanDatabase() {
         // await prisma.shape.deleteMany();
         // await prisma.busRoute.deleteMany();
         // await prisma.agency.deleteMany();
-        await prisma.stationParentStation.deleteMany();
-
+        // await prisma.stationParentStation.deleteMany();
+        await prisma.userFavoriteRoute.deleteMany();
         console.log('Base de datos limpiada exitosamente.');
     } catch (error) {
         console.error('Error al limpiar la base de datos:', error);

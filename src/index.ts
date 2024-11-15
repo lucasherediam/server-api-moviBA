@@ -1,7 +1,7 @@
 import { PrismaClient } from '@prisma/client'
 import express, { NextFunction, Request, Response } from 'express'
 import addRoutes from './routes'
-import { startTrafficAlertsCronJob } from './cronJobs/trafficAlerts';
+// import { startTrafficAlertsCronJob } from './cronJobs/trafficAlerts';
 
 const prisma = new PrismaClient()
 const app = express()
