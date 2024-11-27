@@ -47,12 +47,12 @@ const SubwayAlerts = (prisma: PrismaClient) => {
         if (alerts) {
             res.json(alerts);
           } else {
-            res.status(404).json({ error: "Tiempos de llegada no encontrados" });
+            res.status(404).json({ error: "No se encontraron alertas" });
           }
       
 
     } catch (error) {
-      res.status(500).json({ error: "Error al obtener el tiempo de llegada del tren" });
+      res.status(500).json({ error: "Error al obtener alertas de subte" });
     }
   });
 
