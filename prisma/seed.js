@@ -522,7 +522,7 @@ async function seedSubwayShapes(filePath) {
     // await updateAgencyType();
     // await seedSubwayTrip('./assets/subway_trips.json');
     // await seedSubwayColor('./assets/subway_colors.json');
-    await seedSubwayShapes('./assets/subway_shapes.json');
+    await seedSubwayShapes('./assets/subway_shapes-v2.json');
     console.log("Proceso de seed completado.");
     await prisma.$disconnect();
 })();
